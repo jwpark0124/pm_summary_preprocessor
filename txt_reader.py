@@ -120,7 +120,7 @@ pm_date = date_extractor(text)
 def author(text):
     pm_author = ''
     for i in range(6, 12):
-        if text[i].startswith('國') and text[i].endswith('處') or text[i].startswith('국') and text[i].endswith('處'):
+        if text[i].startswith('國') and text[i].endswith('處') or text[i].startswith('국') and text[i].endswith('처'):
             pm_author = hanja.translate(
                 ''.join(text[i].split(' ')), "substitution")
     return pm_author
@@ -249,7 +249,7 @@ def dialog_extractor(text):
             break
     for sid in range(len(text)):
         sent = text[sid].strip()
-        if sent.endswith('산회)'):
+        if sent.endswith('산회)') or sent.endswith('중지)'):
             s_end = sid
 
     for sid in range(len(text)):
@@ -326,7 +326,7 @@ def dialog_extractor_or(text_or):
             break
     for sid in range(len(text_or)):
         sent = text_or[sid].strip()
-        if sent.endswith('산회)'):
+        if sent.endswith('산회)') or sent.endswith('중지)'):
             s_end = sid
 
     for sid in range(len(text_or)):
