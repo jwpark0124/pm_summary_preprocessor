@@ -1,7 +1,7 @@
 # txt_reader(text파일): 국회록 원시데이터 추출기(json파일)
 
-### visual studio code 기준으로 작성했습니다.
-### install 및 import 문제가 있을시 프로그램을 종료 후 다시 실행해보시길 바랍니다.
+### **visual studio code 기준으로 작성했습니다.
+### ***install 및 import 문제가 있을시 프로그램을 종료 후 다시 실행해보시길 바랍니다.
 
 ## Installation
 
