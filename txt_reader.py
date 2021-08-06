@@ -11,6 +11,7 @@ Original file is located at
 
 # import collections
 
+import unicodedata
 import yaml
 import hanja
 from hanja import hangul
@@ -273,8 +274,10 @@ def meta_extractor(text, pm_date, pm_topic, pm_author, fname):
     meta['토픽'] = pm_topic
 
     # 파일명
-    file_title = ''
-    file_title = fname.split('/')[-1].split('.txt')[0]
+    f_title = ''
+    f_title = fname.split('/')[-1].split('.txt')[0]
+    f_title1 = unicodedata.normalize('NFD', f_title)
+    file_title = unicodedata.normalize('NFC', f_title1)
     meta['파일명'] = file_title
 
     return meta
