@@ -22,8 +22,8 @@ import json
 import re
 from pprint import pprint
 
-sample = sorted(glob(
-    "/Users/jaewanpark/Documents/회의록/회의록 1차 2차 분류/1차/*.txt"))
+# sample = sorted(glob(
+#     "/Users/jaewanpark/Documents/회의록/회의록 1차 2차 분류/1차/*.txt"))
 # pprint(sample)
 
 # 파일 불러오기
@@ -999,7 +999,7 @@ def convert_to_korea(meta, speaker_list, speaker_list2, dialog_json, id):
 
 korea_formatted_data = convert_to_korea(
     meta, speaker_list, speaker_list2, dialog_json, id)
-pprint(korea_formatted_data)
+# pprint(korea_formatted_data)
 # pprint(korea_formatted_data['document']['utterance'][0])
 
 # argparse 이용 터미널로 불러오기
