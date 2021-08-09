@@ -1,5 +1,8 @@
 # txt_reader(text파일): 국회록 원시데이터 추출기(json파일)
 
+### **visual studio code 기준으로 작성했습니다.
+### ***install 및 import 문제가 있을시 프로그램을 종료 후 다시 실행해보시길 바랍니다.
+
 ## Installation
 
 ```
@@ -27,8 +30,8 @@ fname = "/Users/jaewanpark/Documents/회의록/회의록 1차 2�
 >>>python txt_reader.py --input "/경로1/" --output "/경로2/"
 ```
 
-경로1은 국회록 텍스트 파일이 있는 폴더의 경로
-경로2는 json파일을 만들고 싶은 폴더의 경로
+경로1은 국회록 텍스트 파일이 있는 폴더의 경로이고
+경로2는 json파일을 만들고 싶은 폴더의 경로입니다.
 
 ## 주의사항
 
@@ -57,7 +60,6 @@ hwp를 txt파일로 변경하기 위해 [Link](https://cloudconvert.com/hwp-to-t
 ```
 
 ### 오류사항이 있을시 수정 후 반영하겠습니다.
-
 2021년08월06일
 
 ```
