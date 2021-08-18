@@ -1,0 +1,3662 @@
+[
+    {
+        "SBRW2100000001": {
+            "speaker": [
+                {
+                    "id": "김상희",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김상희"
+                },
+                {
+                    "id": "김귀순",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "김귀순"
+                },
+                {
+                    "id": "김옥이",
+                    "occupation": "위원",
+                    "original_speaker_id": "金玉伊"
+                },
+                {
+                    "id": "김태석",
+                    "occupation": "여성부기획조정실장",
+                    "original_speaker_id": "김태석"
+                },
+                {
+                    "id": "이정선",
+                    "occupation": "위원",
+                    "original_speaker_id": "이정선"
+                },
+                {
+                    "id": "곽정숙",
+                    "occupation": "위원",
+                    "original_speaker_id": "곽정숙"
+                },
+                {
+                    "id": "손숙미",
+                    "occupation": "위원",
+                    "original_speaker_id": "손숙미"
+                },
+                {
+                    "id": "이복실",
+                    "occupation": "여성부권익증진국장",
+                    "original_speaker_id": "이복실"
+                },
+                {
+                    "id": "정봉협",
+                    "occupation": "여성부여성정책국장",
+                    "original_speaker_id": "정봉협"
+                },
+                {
+                    "id": "김춘진",
+                    "occupation": "위원",
+                    "original_speaker_id": "김춘진"
+                },
+                {
+                    "id": "이성선",
+                    "occupation": "여성부인력개발사업과장",
+                    "original_speaker_id": "이성선"
+                },
+                {
+                    "id": "김권영",
+                    "occupation": "여성부복지지원과장",
+                    "original_speaker_id": "김권영"
+                },
+                {
+                    "id": "차인순",
+                    "occupation": "입법심의관",
+                    "original_speaker_id": "차인순"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000002": {
+            "speaker": [
+                {
+                    "id": "권성동",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "권성동"
+                },
+                {
+                    "id": "박범계",
+                    "occupation": "위원",
+                    "original_speaker_id": "박범계"
+                },
+                {
+                    "id": "이상용",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "이상용"
+                },
+                {
+                    "id": "길태기",
+                    "occupation": "법무부차관",
+                    "original_speaker_id": "길태기"
+                },
+                {
+                    "id": "김학용",
+                    "occupation": "위원",
+                    "original_speaker_id": "김학용"
+                },
+                {
+                    "id": "최원식",
+                    "occupation": "위원",
+                    "original_speaker_id": "최원식"
+                },
+                {
+                    "id": "권순일",
+                    "occupation": "법원행정처차장",
+                    "original_speaker_id": "권순일"
+                },
+                {
+                    "id": "서기호",
+                    "occupation": "위원",
+                    "original_speaker_id": "서기호"
+                },
+                {
+                    "id": "이춘석",
+                    "occupation": "위원",
+                    "original_speaker_id": "이춘석"
+                },
+                {
+                    "id": "전해철",
+                    "occupation": "위원",
+                    "original_speaker_id": "전해철"
+                },
+                {
+                    "id": "전상수",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "전상수"
+                },
+                {
+                    "id": "김회선",
+                    "occupation": "위원",
+                    "original_speaker_id": "김회선"
+                },
+                {
+                    "id": "국민수",
+                    "occupation": "법무부검찰국장",
+                    "original_speaker_id": "국민수"
+                },
+                {
+                    "id": "문광섭",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "문광섭"
+                },
+                {
+                    "id": "서봉규",
+                    "occupation": "법무부상사법무과장",
+                    "original_speaker_id": "서봉규"
+                },
+                {
+                    "id": "황윤성",
+                    "occupation": "대검찰청법무실장",
+                    "original_speaker_id": "황윤성"
+                },
+                {
+                    "id": "노형욱",
+                    "occupation": "기획재정부행정예산심의관",
+                    "original_speaker_id": "노형욱"
+                },
+                {
+                    "id": "장영수",
+                    "occupation": "법무부법무심의관",
+                    "original_speaker_id": "장영수"
+                },
+                {
+                    "id": "이주영",
+                    "occupation": "위원",
+                    "original_speaker_id": "이주영"
+                },
+                {
+                    "id": "이한규",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "이한규"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000003": {
+            "speaker": [
+                {
+                    "id": "김성태",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김성태"
+                },
+                {
+                    "id": "천병호",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "천병호"
+                },
+                {
+                    "id": "윤종수",
+                    "occupation": "환경부차관",
+                    "original_speaker_id": "윤종수"
+                },
+                {
+                    "id": "홍영표",
+                    "occupation": "위원",
+                    "original_speaker_id": "홍영표"
+                },
+                {
+                    "id": "최봉홍",
+                    "occupation": "위원",
+                    "original_speaker_id": "최봉홍"
+                },
+                {
+                    "id": "심상정",
+                    "occupation": "위원",
+                    "original_speaker_id": "심상정"
+                },
+                {
+                    "id": "최흥진",
+                    "occupation": "환경부자원순환국장",
+                    "original_speaker_id": "최흥진"
+                },
+                {
+                    "id": "한정애",
+                    "occupation": "위원",
+                    "original_speaker_id": "한정애"
+                },
+                {
+                    "id": "은수미",
+                    "occupation": "위원",
+                    "original_speaker_id": "은수미"
+                },
+                {
+                    "id": "이종훈",
+                    "occupation": "위원",
+                    "original_speaker_id": "이종훈"
+                },
+                {
+                    "id": "이정섭",
+                    "occupation": "환경부물환경정책국장",
+                    "original_speaker_id": "이정섭"
+                },
+                {
+                    "id": "이완영",
+                    "occupation": "위원",
+                    "original_speaker_id": "이완영"
+                },
+                {
+                    "id": "이동근",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "이동근"
+                },
+                {
+                    "id": "정회석",
+                    "occupation": "환경부환경보건정책관",
+                    "original_speaker_id": "정회석"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000004": {
+            "speaker": [
+                {
+                    "id": "이학재",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "이학재"
+                },
+                {
+                    "id": "김상희",
+                    "occupation": "위원",
+                    "original_speaker_id": "김상희"
+                },
+                {
+                    "id": "현영희",
+                    "occupation": "위원",
+                    "original_speaker_id": "현영희"
+                },
+                {
+                    "id": "임진대",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "임진대"
+                },
+                {
+                    "id": "박용수",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "박용수"
+                },
+                {
+                    "id": "나승일",
+                    "occupation": "교육부차관",
+                    "original_speaker_id": "나승일"
+                },
+                {
+                    "id": "정병걸",
+                    "occupation": "교육부지방교육지원국장",
+                    "original_speaker_id": "정병걸"
+                },
+                {
+                    "id": "김양수",
+                    "occupation": "한국특수교육총연합회장",
+                    "original_speaker_id": "김양수"
+                },
+                {
+                    "id": "우원식",
+                    "occupation": "위원",
+                    "original_speaker_id": "우원식"
+                },
+                {
+                    "id": "심정희",
+                    "occupation": "입법조사관",
+                    "original_speaker_id": "심정희"
+                },
+                {
+                    "id": "성삼제",
+                    "occupation": "교육부기획조정실장",
+                    "original_speaker_id": "성삼제"
+                },
+                {
+                    "id": "이승재",
+                    "occupation": "입법심의관",
+                    "original_speaker_id": "이승재"
+                },
+                {
+                    "id": "박영대",
+                    "occupation": "문화재청장직무대행",
+                    "original_speaker_id": "박영대"
+                },
+                {
+                    "id": "박백범",
+                    "occupation": "교육부대학지원실장",
+                    "original_speaker_id": "박백범"
+                },
+                {
+                    "id": "황홍규",
+                    "occupation": "교육부학생복지안전관",
+                    "original_speaker_id": "황홍규"
+                },
+                {
+                    "id": "박춘란",
+                    "occupation": "교육부대학정책관",
+                    "original_speaker_id": "박춘란"
+                },
+                {
+                    "id": "서유미",
+                    "occupation": "교육부학술장학지원관",
+                    "original_speaker_id": "서유미"
+                },
+                {
+                    "id": "박영근",
+                    "occupation": "문화재청문화재활용국장",
+                    "original_speaker_id": "박영근"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000005": {
+            "speaker": [
+                {
+                    "id": "홍영표",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "홍영표"
+                },
+                {
+                    "id": "한공식",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "한공식"
+                },
+                {
+                    "id": "정연만",
+                    "occupation": "환경부차관",
+                    "original_speaker_id": "정연만"
+                },
+                {
+                    "id": "은수미",
+                    "occupation": "위원",
+                    "original_speaker_id": "은수미"
+                },
+                {
+                    "id": "주영순",
+                    "occupation": "위원",
+                    "original_speaker_id": "朱永順"
+                },
+                {
+                    "id": "서용교",
+                    "occupation": "위원",
+                    "original_speaker_id": "서용교"
+                },
+                {
+                    "id": "황석태",
+                    "occupation": "환경부수도정책과장",
+                    "original_speaker_id": "황석태"
+                },
+                {
+                    "id": "김상배",
+                    "occupation": "환경부상하수도정책관",
+                    "original_speaker_id": "김상배"
+                },
+                {
+                    "id": "김경협",
+                    "occupation": "위원",
+                    "original_speaker_id": "김경협"
+                },
+                {
+                    "id": "김성태",
+                    "occupation": "위원",
+                    "original_speaker_id": "김성태"
+                },
+                {
+                    "id": "류연기",
+                    "occupation": "환경부생활하수과장",
+                    "original_speaker_id": "류연기"
+                },
+                {
+                    "id": "장하나",
+                    "occupation": "위원",
+                    "original_speaker_id": "장하나"
+                },
+                {
+                    "id": "김상민",
+                    "occupation": "위원",
+                    "original_speaker_id": "김상민"
+                },
+                {
+                    "id": "김양건",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "김양건"
+                },
+                {
+                    "id": "이재현",
+                    "occupation": "환경부기획조정실장",
+                    "original_speaker_id": "이재현"
+                },
+                {
+                    "id": "이윤섭",
+                    "occupation": "환경부환경정책관",
+                    "original_speaker_id": "이윤섭"
+                },
+                {
+                    "id": "나정균",
+                    "occupation": "환경부환경보건정책관",
+                    "original_speaker_id": "나정균"
+                },
+                {
+                    "id": "남광희",
+                    "occupation": "환경부기후대기정책관",
+                    "original_speaker_id": "남광희"
+                },
+                {
+                    "id": "오종극",
+                    "occupation": "환경부물환경정책국장",
+                    "original_speaker_id": "오종극"
+                },
+                {
+                    "id": "이찬희",
+                    "occupation": "환경부자연보전국장",
+                    "original_speaker_id": "이찬희"
+                },
+                {
+                    "id": "박광석",
+                    "occupation": "환경부자원순환국장",
+                    "original_speaker_id": "박광석"
+                },
+                {
+                    "id": "고윤화",
+                    "occupation": "기상청청장",
+                    "original_speaker_id": "고윤화"
+                },
+                {
+                    "id": "김영신",
+                    "occupation": "기상청기획조정관",
+                    "original_speaker_id": "김영신"
+                },
+                {
+                    "id": "이우진",
+                    "occupation": "기상청예보국장",
+                    "original_speaker_id": "이우진"
+                },
+                {
+                    "id": "박관영",
+                    "occupation": "기상청관측기반국장",
+                    "original_speaker_id": "박관영"
+                },
+                {
+                    "id": "권원태",
+                    "occupation": "기상청기후과학국장",
+                    "original_speaker_id": "권원태"
+                },
+                {
+                    "id": "엄원근",
+                    "occupation": "기상청기상산업정보화국장",
+                    "original_speaker_id": "엄원근"
+                },
+                {
+                    "id": "임병숙",
+                    "occupation": "기상청수치모델관리관",
+                    "original_speaker_id": "임병숙"
+                },
+                {
+                    "id": "양진관",
+                    "occupation": "기상청지진관리관",
+                    "original_speaker_id": "양진관"
+                },
+                {
+                    "id": "권태순",
+                    "occupation": "기상청국가기상위성센터장",
+                    "original_speaker_id": "권태순"
+                },
+                {
+                    "id": "김진국",
+                    "occupation": "기상청기상레이더센터장",
+                    "original_speaker_id": "김진국"
+                },
+                {
+                    "id": "최치영",
+                    "occupation": "기상청항공기상청장",
+                    "original_speaker_id": "최치영"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000006": {
+            "speaker": [
+                {
+                    "id": "유기홍",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "유기홍"
+                },
+                {
+                    "id": "임진대",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "임진대"
+                },
+                {
+                    "id": "강영순",
+                    "occupation": "교육부국제협력관",
+                    "original_speaker_id": "강영순"
+                },
+                {
+                    "id": "정진후",
+                    "occupation": "위원",
+                    "original_speaker_id": "정진후"
+                },
+                {
+                    "id": "박홍근",
+                    "occupation": "위원",
+                    "original_speaker_id": "박홍근"
+                },
+                {
+                    "id": "성삼제",
+                    "occupation": "교육부기획조정실장",
+                    "original_speaker_id": "성삼제"
+                },
+                {
+                    "id": "서유미",
+                    "occupation": "교육부학술장학지원관",
+                    "original_speaker_id": "서유미"
+                },
+                {
+                    "id": "염동열",
+                    "occupation": "위원",
+                    "original_speaker_id": "염동열"
+                },
+                {
+                    "id": "한석수",
+                    "occupation": "교육부대학지원관",
+                    "original_speaker_id": "한석수"
+                },
+                {
+                    "id": "김세연",
+                    "occupation": "위원",
+                    "original_speaker_id": "金世淵"
+                },
+                {
+                    "id": "박성호",
+                    "occupation": "위원",
+                    "original_speaker_id": "朴成浩"
+                },
+                {
+                    "id": "나승일",
+                    "occupation": "교육부차관",
+                    "original_speaker_id": "나승일"
+                },
+                {
+                    "id": "박혜자",
+                    "occupation": "위원",
+                    "original_speaker_id": "박혜자"
+                },
+                {
+                    "id": "이상훈",
+                    "occupation": "한국학중앙연구원기획처장",
+                    "original_speaker_id": "이상훈"
+                },
+                {
+                    "id": "김영윤",
+                    "occupation": "교육부학교정책관",
+                    "original_speaker_id": "김영윤"
+                },
+                {
+                    "id": "김홍구",
+                    "occupation": "교육부학술진흥과장",
+                    "original_speaker_id": "김홍구"
+                },
+                {
+                    "id": "박춘란",
+                    "occupation": "교육부대학정책관",
+                    "original_speaker_id": "박춘란"
+                },
+                {
+                    "id": "김윤덕",
+                    "occupation": "위원",
+                    "original_speaker_id": "김윤덕"
+                },
+                {
+                    "id": "박명수",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "박명수"
+                },
+                {
+                    "id": "조현재",
+                    "occupation": "문화체육관광부제1차관",
+                    "original_speaker_id": "조현재"
+                },
+                {
+                    "id": "송수근",
+                    "occupation": "문화체육관광부콘텐츠정책관",
+                    "original_speaker_id": "송수근"
+                },
+                {
+                    "id": "박창식",
+                    "occupation": "위원",
+                    "original_speaker_id": "박창식"
+                },
+                {
+                    "id": "이학재",
+                    "occupation": "위원",
+                    "original_speaker_id": "이학재"
+                },
+                {
+                    "id": "박용수",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "박용수"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000007": {
+            "speaker": [
+                {
+                    "id": "박상은",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "박상은"
+                },
+                {
+                    "id": "김요환",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "김요환"
+                },
+                {
+                    "id": "박종흠",
+                    "occupation": "국토교통부교통물류실장",
+                    "original_speaker_id": "박종흠"
+                },
+                {
+                    "id": "임내현",
+                    "occupation": "위원",
+                    "original_speaker_id": "임내현"
+                },
+                {
+                    "id": "민홍철",
+                    "occupation": "위원",
+                    "original_speaker_id": "민홍철"
+                },
+                {
+                    "id": "여형구",
+                    "occupation": "국토교통부제2차관",
+                    "original_speaker_id": "여형구"
+                },
+                {
+                    "id": "이헌승",
+                    "occupation": "위원",
+                    "original_speaker_id": "李憲昇"
+                },
+                {
+                    "id": "윤후덕",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤후덕"
+                },
+                {
+                    "id": "조현룡",
+                    "occupation": "위원",
+                    "original_speaker_id": "조현룡"
+                },
+                {
+                    "id": "최정호",
+                    "occupation": "국토교통부항공정책실장",
+                    "original_speaker_id": "최정호"
+                },
+                {
+                    "id": "장호상",
+                    "occupation": "한국공항공사기획조정실장",
+                    "original_speaker_id": "장호상"
+                },
+                {
+                    "id": "손명선",
+                    "occupation": "국토교통부교통안전복지과장",
+                    "original_speaker_id": "손명선"
+                },
+                {
+                    "id": "이복우",
+                    "occupation": "입법조사관",
+                    "original_speaker_id": "이복우"
+                },
+                {
+                    "id": "박재순",
+                    "occupation": "국토교통부규제개혁법무담당관",
+                    "original_speaker_id": "박재순"
+                },
+                {
+                    "id": "서정욱",
+                    "occupation": "입법조사관",
+                    "original_speaker_id": "서정욱"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000008": {
+            "speaker": [
+                {
+                    "id": "박상은",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "박상은"
+                },
+                {
+                    "id": "김진헌",
+                    "occupation": "참고인",
+                    "original_speaker_id": "김진헌"
+                },
+                {
+                    "id": "정규수",
+                    "occupation": "참고인",
+                    "original_speaker_id": "정규수"
+                },
+                {
+                    "id": "권육상",
+                    "occupation": "참고인",
+                    "original_speaker_id": "권육상"
+                },
+                {
+                    "id": "김정현",
+                    "occupation": "참고인",
+                    "original_speaker_id": "김정현"
+                },
+                {
+                    "id": "심혁윤",
+                    "occupation": "참고인",
+                    "original_speaker_id": "심혁윤"
+                },
+                {
+                    "id": "김맹곤",
+                    "occupation": "참고인",
+                    "original_speaker_id": "김맹곤"
+                },
+                {
+                    "id": "김민기",
+                    "occupation": "의원",
+                    "original_speaker_id": "김민기"
+                },
+                {
+                    "id": "문병호",
+                    "occupation": "위원",
+                    "original_speaker_id": "문병호"
+                },
+                {
+                    "id": "조현룡",
+                    "occupation": "위원",
+                    "original_speaker_id": "조현룡"
+                },
+                {
+                    "id": "민홍철",
+                    "occupation": "위원",
+                    "original_speaker_id": "민홍철"
+                },
+                {
+                    "id": "여형구",
+                    "occupation": "국토교통부제2차관",
+                    "original_speaker_id": "여형구"
+                },
+                {
+                    "id": "윤정원",
+                    "occupation": "참고인",
+                    "original_speaker_id": "윤정원"
+                },
+                {
+                    "id": "백군기",
+                    "occupation": "의원",
+                    "original_speaker_id": "백군기"
+                },
+                {
+                    "id": "김경욱",
+                    "occupation": "국토교통부철도국장",
+                    "original_speaker_id": "김경욱"
+                },
+                {
+                    "id": "김영국",
+                    "occupation": "국토교통부광역도시도로과장",
+                    "original_speaker_id": "김영국"
+                },
+                {
+                    "id": "박수현",
+                    "occupation": "위원",
+                    "original_speaker_id": "박수현"
+                },
+                {
+                    "id": "김요환",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "김요환"
+                },
+                {
+                    "id": "권병윤",
+                    "occupation": "국토교통부도로국장",
+                    "original_speaker_id": "권병윤"
+                },
+                {
+                    "id": "최정호",
+                    "occupation": "국토교통부항공정책실장",
+                    "original_speaker_id": "최정호"
+                },
+                {
+                    "id": "김형윤",
+                    "occupation": "참고인",
+                    "original_speaker_id": "김형윤"
+                },
+                {
+                    "id": "임해명",
+                    "occupation": "참고인",
+                    "original_speaker_id": "임해명"
+                },
+                {
+                    "id": "김영래",
+                    "occupation": "참고인",
+                    "original_speaker_id": "김영래"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000009": {
+            "speaker": [
+                {
+                    "id": "강석호",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "강석호"
+                },
+                {
+                    "id": "김경욱",
+                    "occupation": "국토교통부철도국장",
+                    "original_speaker_id": "김경욱"
+                },
+                {
+                    "id": "오병윤",
+                    "occupation": "위원",
+                    "original_speaker_id": "오병윤"
+                },
+                {
+                    "id": "윤후덕",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤후덕"
+                },
+                {
+                    "id": "신광호",
+                    "occupation": "국토교통부철도운영과장",
+                    "original_speaker_id": "신광호"
+                },
+                {
+                    "id": "민홍철",
+                    "occupation": "위원",
+                    "original_speaker_id": "민홍철"
+                },
+                {
+                    "id": "김영래",
+                    "occupation": "한국철도공사부사장",
+                    "original_speaker_id": "김영래"
+                },
+                {
+                    "id": "이윤석",
+                    "occupation": "위원",
+                    "original_speaker_id": "이윤석"
+                },
+                {
+                    "id": "이이재",
+                    "occupation": "위원",
+                    "original_speaker_id": "이이재"
+                },
+                {
+                    "id": "김요환",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "김요환"
+                },
+                {
+                    "id": "박상은",
+                    "occupation": "위원",
+                    "original_speaker_id": "박상은"
+                },
+                {
+                    "id": "안효대",
+                    "occupation": "위원",
+                    "original_speaker_id": "안효대"
+                },
+                {
+                    "id": "박종흠",
+                    "occupation": "국토교통부교통물류실장",
+                    "original_speaker_id": "박종흠"
+                },
+                {
+                    "id": "서광석",
+                    "occupation": "한국교통대학교철도시설공학과학과장",
+                    "original_speaker_id": "서광석"
+                },
+                {
+                    "id": "김준용",
+                    "occupation": "서울지하철노동조합정책전문위원",
+                    "original_speaker_id": "김준용"
+                },
+                {
+                    "id": "이재훈",
+                    "occupation": "한국교통연구원철도정책기술본부장",
+                    "original_speaker_id": "이재훈"
+                },
+                {
+                    "id": "임삼진",
+                    "occupation": "한국교통연구원초빙선임연구위원",
+                    "original_speaker_id": "임삼진"
+                },
+                {
+                    "id": "이해영",
+                    "occupation": "한신대학교국제관계학부교수",
+                    "original_speaker_id": "이해영"
+                },
+                {
+                    "id": "김태승",
+                    "occupation": "인하대물류전문대학원교수",
+                    "original_speaker_id": "김태승"
+                },
+                {
+                    "id": "오건호",
+                    "occupation": "글로벌정치경제연구소연구실장",
+                    "original_speaker_id": "오건호"
+                },
+                {
+                    "id": "김영훈",
+                    "occupation": "철도노조지도위원",
+                    "original_speaker_id": "김영훈"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000010": {
+            "speaker": [
+                {
+                    "id": "강석호",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "강석호"
+                },
+                {
+                    "id": "여형구",
+                    "occupation": "국토교통부제2차관",
+                    "original_speaker_id": "여형구"
+                },
+                {
+                    "id": "오병윤",
+                    "occupation": "위원",
+                    "original_speaker_id": "오병윤"
+                },
+                {
+                    "id": "이윤석",
+                    "occupation": "위원",
+                    "original_speaker_id": "이윤석"
+                },
+                {
+                    "id": "윤후덕",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤후덕"
+                },
+                {
+                    "id": "안효대",
+                    "occupation": "위원",
+                    "original_speaker_id": "안효대"
+                },
+                {
+                    "id": "민홍철",
+                    "occupation": "위원",
+                    "original_speaker_id": "민홍철"
+                },
+                {
+                    "id": "장태성",
+                    "occupation": "입법조사관",
+                    "original_speaker_id": "장태성"
+                },
+                {
+                    "id": "이이재",
+                    "occupation": "위원",
+                    "original_speaker_id": "이이재"
+                },
+                {
+                    "id": "김경욱",
+                    "occupation": "국토교통부철도국장",
+                    "original_speaker_id": "김경욱"
+                },
+                {
+                    "id": "최연혜",
+                    "occupation": "한국철도공사사장",
+                    "original_speaker_id": "최연혜"
+                },
+                {
+                    "id": "신광호",
+                    "occupation": "국토교통부철도운영과장",
+                    "original_speaker_id": "신광호"
+                },
+                {
+                    "id": "김요환",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "김요환"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000011": {
+            "speaker": [
+                {
+                    "id": "강석호",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "강석호"
+                },
+                {
+                    "id": "김요환",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "김요환"
+                },
+                {
+                    "id": "여형구",
+                    "occupation": "국토교통부제2차관",
+                    "original_speaker_id": "여형구"
+                },
+                {
+                    "id": "윤후덕",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤후덕"
+                },
+                {
+                    "id": "민홍철",
+                    "occupation": "위원",
+                    "original_speaker_id": "민홍철"
+                },
+                {
+                    "id": "안효대",
+                    "occupation": "위원",
+                    "original_speaker_id": "안효대"
+                },
+                {
+                    "id": "한문희",
+                    "occupation": "한국철도공사경영지원본부장",
+                    "original_speaker_id": "한문희"
+                },
+                {
+                    "id": "김경욱",
+                    "occupation": "국토교통부철도국장",
+                    "original_speaker_id": "김경욱"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000012": {
+            "speaker": [
+                {
+                    "id": "황영철",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "황영철"
+                },
+                {
+                    "id": "이창림",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "이창림"
+                },
+                {
+                    "id": "백재현",
+                    "occupation": "위원",
+                    "original_speaker_id": "백재현"
+                },
+                {
+                    "id": "이인선",
+                    "occupation": "경찰청차장",
+                    "original_speaker_id": "이인선"
+                },
+                {
+                    "id": "이원영",
+                    "occupation": "경찰청장비담당관",
+                    "original_speaker_id": "이원영"
+                },
+                {
+                    "id": "김기선",
+                    "occupation": "위원",
+                    "original_speaker_id": "김기선"
+                },
+                {
+                    "id": "박기선",
+                    "occupation": "경찰청정보화장비정책관",
+                    "original_speaker_id": "박기선"
+                },
+                {
+                    "id": "유대운",
+                    "occupation": "위원",
+                    "original_speaker_id": "유대운"
+                },
+                {
+                    "id": "김민기",
+                    "occupation": "위원",
+                    "original_speaker_id": "김민기"
+                },
+                {
+                    "id": "윤재옥",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤재옥"
+                },
+                {
+                    "id": "서범수",
+                    "occupation": "경찰청생활안전국장",
+                    "original_speaker_id": "서범수"
+                },
+                {
+                    "id": "류승우",
+                    "occupation": "입법조사관",
+                    "original_speaker_id": "류승우"
+                },
+                {
+                    "id": "김현",
+                    "occupation": "위원",
+                    "original_speaker_id": "김현"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000013": {
+            "speaker": [
+                {
+                    "id": "신계륜",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "신계륜"
+                },
+                {
+                    "id": "김성태",
+                    "occupation": "위원",
+                    "original_speaker_id": "김성태"
+                },
+                {
+                    "id": "홍영표",
+                    "occupation": "위원",
+                    "original_speaker_id": "홍영표"
+                },
+                {
+                    "id": "이종훈",
+                    "occupation": "위원",
+                    "original_speaker_id": "이종훈"
+                },
+                {
+                    "id": "김기문",
+                    "occupation": "중소기업중앙회장",
+                    "original_speaker_id": "김기문"
+                },
+                {
+                    "id": "김영배",
+                    "occupation": "한국경영자총협회장직무대행",
+                    "original_speaker_id": "김영배"
+                },
+                {
+                    "id": "김동만",
+                    "occupation": "한국노동조합총연맹위원장",
+                    "original_speaker_id": "김동만"
+                },
+                {
+                    "id": "방하남",
+                    "occupation": "고용노동부장관",
+                    "original_speaker_id": "방하남"
+                },
+                {
+                    "id": "이동근",
+                    "occupation": "대한상공회의소부회장",
+                    "original_speaker_id": "이동근"
+                },
+                {
+                    "id": "김양건",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "김양건"
+                },
+                {
+                    "id": "한공식",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "한공식"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000014": {
+            "speaker": [
+                {
+                    "id": "김성태",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김성태"
+                },
+                {
+                    "id": "김희국",
+                    "occupation": "위원",
+                    "original_speaker_id": "金熙國"
+                },
+                {
+                    "id": "박성호",
+                    "occupation": "위원",
+                    "original_speaker_id": "朴成浩"
+                },
+                {
+                    "id": "이노근",
+                    "occupation": "위원",
+                    "original_speaker_id": "이노근"
+                },
+                {
+                    "id": "이장우",
+                    "occupation": "위원",
+                    "original_speaker_id": "이장우"
+                },
+                {
+                    "id": "변재일",
+                    "occupation": "위원",
+                    "original_speaker_id": "변재일"
+                },
+                {
+                    "id": "이미경",
+                    "occupation": "위원",
+                    "original_speaker_id": "이미경"
+                },
+                {
+                    "id": "오병윤",
+                    "occupation": "위원",
+                    "original_speaker_id": "오병윤"
+                },
+                {
+                    "id": "허태수",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "허태수"
+                },
+                {
+                    "id": "김경식",
+                    "occupation": "국토교통부제1차관",
+                    "original_speaker_id": "김경식"
+                },
+                {
+                    "id": "김재정",
+                    "occupation": "국토교통부주택정책관",
+                    "original_speaker_id": "김재정"
+                },
+                {
+                    "id": "김우철",
+                    "occupation": "새정치민주연합전문위원",
+                    "original_speaker_id": "김우철"
+                },
+                {
+                    "id": "이언주",
+                    "occupation": "위원",
+                    "original_speaker_id": "이언주"
+                },
+                {
+                    "id": "손태락",
+                    "occupation": "국토교통부주택도시실장",
+                    "original_speaker_id": "손태락"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000015": {
+            "speaker": [
+                {
+                    "id": "류지영",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "류지영"
+                },
+                {
+                    "id": "이용원",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "이용원"
+                },
+                {
+                    "id": "권용현",
+                    "occupation": "여성가족부차관",
+                    "original_speaker_id": "권용현"
+                },
+                {
+                    "id": "남인순",
+                    "occupation": "위원",
+                    "original_speaker_id": "남인순"
+                },
+                {
+                    "id": "임수경",
+                    "occupation": "위원",
+                    "original_speaker_id": "임수경"
+                },
+                {
+                    "id": "김숙자",
+                    "occupation": "여성가족부가족정책과장",
+                    "original_speaker_id": "김숙자"
+                },
+                {
+                    "id": "민현주",
+                    "occupation": "위원",
+                    "original_speaker_id": "민현주"
+                },
+                {
+                    "id": "진선미",
+                    "occupation": "위원",
+                    "original_speaker_id": "진선미"
+                },
+                {
+                    "id": "손애리",
+                    "occupation": "여성가족부청소년가족정책실장",
+                    "original_speaker_id": "손애리"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000016": {
+            "speaker": [
+                {
+                    "id": "심윤조",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "심윤조"
+                },
+                {
+                    "id": "이종후",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "이종후"
+                },
+                {
+                    "id": "조태용",
+                    "occupation": "외교부제1차관",
+                    "original_speaker_id": "조태용"
+                },
+                {
+                    "id": "심재권",
+                    "occupation": "위원",
+                    "original_speaker_id": "심재권"
+                },
+                {
+                    "id": "김태호",
+                    "occupation": "위원",
+                    "original_speaker_id": "김태호"
+                },
+                {
+                    "id": "김성곤",
+                    "occupation": "위원",
+                    "original_speaker_id": "김성곤"
+                },
+                {
+                    "id": "오영주",
+                    "occupation": "외교부개발협력국장",
+                    "original_speaker_id": "오영주"
+                },
+                {
+                    "id": "나경원",
+                    "occupation": "위원",
+                    "original_speaker_id": "나경원"
+                },
+                {
+                    "id": "조홍주",
+                    "occupation": "외교부여권과장",
+                    "original_speaker_id": "조홍주"
+                },
+                {
+                    "id": "정병원",
+                    "occupation": "외교부동북아시아국심의관",
+                    "original_speaker_id": "정병원"
+                },
+                {
+                    "id": "정순임",
+                    "occupation": "입법조사관",
+                    "original_speaker_id": "정순임"
+                },
+                {
+                    "id": "이명렬",
+                    "occupation": "외교부재외동포영사국장",
+                    "original_speaker_id": "이명렬"
+                },
+                {
+                    "id": "허진",
+                    "occupation": "외교부조정기획관",
+                    "original_speaker_id": "허진"
+                },
+                {
+                    "id": "박철민",
+                    "occupation": "외교부국제기구국심의관",
+                    "original_speaker_id": "박철민"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000017": {
+            "speaker": [
+                {
+                    "id": "박민식",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "박민식"
+                },
+                {
+                    "id": "이인용",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "이인용"
+                },
+                {
+                    "id": "배덕광",
+                    "occupation": "위원",
+                    "original_speaker_id": "배덕광"
+                },
+                {
+                    "id": "최재유",
+                    "occupation": "미래창조과학부제2차관",
+                    "original_speaker_id": "최재유"
+                },
+                {
+                    "id": "우상호",
+                    "occupation": "위원",
+                    "original_speaker_id": "우상호"
+                },
+                {
+                    "id": "민병주",
+                    "occupation": "위원",
+                    "original_speaker_id": "민병주"
+                },
+                {
+                    "id": "권은희",
+                    "occupation": "위원",
+                    "original_speaker_id": "권은희"
+                },
+                {
+                    "id": "최원식",
+                    "occupation": "위원",
+                    "original_speaker_id": "최원식"
+                },
+                {
+                    "id": "민원기",
+                    "occupation": "미래창조과학부기획조정실장",
+                    "original_speaker_id": "민원기"
+                },
+                {
+                    "id": "최민희",
+                    "occupation": "위원",
+                    "original_speaker_id": "최민희"
+                },
+                {
+                    "id": "허원제",
+                    "occupation": "방송통신위원회부위원장",
+                    "original_speaker_id": "허원제"
+                },
+                {
+                    "id": "정종기",
+                    "occupation": "방송통신위원회기획조정실장",
+                    "original_speaker_id": "정종기"
+                },
+                {
+                    "id": "김재영",
+                    "occupation": "방송통신위원회방송기반국장",
+                    "original_speaker_id": "김재영"
+                },
+                {
+                    "id": "박용철",
+                    "occupation": "문화체육관광부미디어정책관",
+                    "original_speaker_id": "박용철"
+                },
+                {
+                    "id": "전병헌",
+                    "occupation": "위원",
+                    "original_speaker_id": "전병헌"
+                },
+                {
+                    "id": "김부년",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "김부년"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000018": {
+            "speaker": [
+                {
+                    "id": "김성찬",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김성찬"
+                },
+                {
+                    "id": "권기원",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "권기원"
+                },
+                {
+                    "id": "진성준",
+                    "occupation": "위원",
+                    "original_speaker_id": "진성준"
+                },
+                {
+                    "id": "김노운",
+                    "occupation": "병무청차장",
+                    "original_speaker_id": "김노운"
+                },
+                {
+                    "id": "안규백",
+                    "occupation": "위원",
+                    "original_speaker_id": "안규백"
+                },
+                {
+                    "id": "권병태",
+                    "occupation": "병무청기획재정담당관",
+                    "original_speaker_id": "권병태"
+                },
+                {
+                    "id": "송영근",
+                    "occupation": "위원",
+                    "original_speaker_id": "송영근"
+                },
+                {
+                    "id": "박우신",
+                    "occupation": "병무청병역자원국장",
+                    "original_speaker_id": "박우신"
+                },
+                {
+                    "id": "백군기",
+                    "occupation": "위원",
+                    "original_speaker_id": "백군기"
+                },
+                {
+                    "id": "김형철",
+                    "occupation": "병무청징병검사과",
+                    "original_speaker_id": "김형철"
+                },
+                {
+                    "id": "최철준",
+                    "occupation": "병무청사회복무국장",
+                    "original_speaker_id": "최철준"
+                },
+                {
+                    "id": "정창근",
+                    "occupation": "병무청교육복무과장",
+                    "original_speaker_id": "정창근"
+                },
+                {
+                    "id": "김종철",
+                    "occupation": "병무청운영지원과",
+                    "original_speaker_id": "김종철"
+                },
+                {
+                    "id": "정창근",
+                    "occupation": "병무청사회교육복무과장",
+                    "original_speaker_id": "정창근"
+                },
+                {
+                    "id": "최성원",
+                    "occupation": "병무청자원관리과장",
+                    "original_speaker_id": "최성원"
+                },
+                {
+                    "id": "주호영",
+                    "occupation": "위원",
+                    "original_speaker_id": "주호영"
+                },
+                {
+                    "id": "황평연",
+                    "occupation": "병무청기획조정관",
+                    "original_speaker_id": "황평연"
+                },
+                {
+                    "id": "임재하",
+                    "occupation": "병무청입영동원국장",
+                    "original_speaker_id": "임재하"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000019": {
+            "speaker": [
+                {
+                    "id": "이명수",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "이명수"
+                },
+                {
+                    "id": "정연호",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "정연호"
+                },
+                {
+                    "id": "장옥주",
+                    "occupation": "보건복지부차관",
+                    "original_speaker_id": "장옥주"
+                },
+                {
+                    "id": "김용익",
+                    "occupation": "위원",
+                    "original_speaker_id": "김용익"
+                },
+                {
+                    "id": "남인순",
+                    "occupation": "위원",
+                    "original_speaker_id": "남인순"
+                },
+                {
+                    "id": "김성주",
+                    "occupation": "위원",
+                    "original_speaker_id": "김성주"
+                },
+                {
+                    "id": "문정림",
+                    "occupation": "위원",
+                    "original_speaker_id": "문정림"
+                },
+                {
+                    "id": "권준욱",
+                    "occupation": "보건복지부공공보건정책관",
+                    "original_speaker_id": "권준욱"
+                },
+                {
+                    "id": "최동익",
+                    "occupation": "위원",
+                    "original_speaker_id": "최동익"
+                },
+                {
+                    "id": "신경림",
+                    "occupation": "위원",
+                    "original_speaker_id": "신경림"
+                },
+                {
+                    "id": "이동욱",
+                    "occupation": "보건복지부보건의료정책관",
+                    "original_speaker_id": "이동욱"
+                },
+                {
+                    "id": "김현숙",
+                    "occupation": "위원",
+                    "original_speaker_id": "김현숙"
+                },
+                {
+                    "id": "이목희",
+                    "occupation": "위원",
+                    "original_speaker_id": "이목희"
+                },
+                {
+                    "id": "박윤옥",
+                    "occupation": "위원",
+                    "original_speaker_id": "박윤옥"
+                },
+                {
+                    "id": "김승기",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "김승기"
+                },
+                {
+                    "id": "곽명섭",
+                    "occupation": "보건복지부규제개혁법무담당관",
+                    "original_speaker_id": "곽명섭"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000020": {
+            "speaker": [
+                {
+                    "id": "안규백",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "안규백"
+                },
+                {
+                    "id": "장명진",
+                    "occupation": "방위사업청장",
+                    "original_speaker_id": "장명진"
+                },
+                {
+                    "id": "오원진",
+                    "occupation": "방위사업청방산진흥국장",
+                    "original_speaker_id": "오원진"
+                },
+                {
+                    "id": "강은호",
+                    "occupation": "방위사업청기획조정관",
+                    "original_speaker_id": "강은호"
+                },
+                {
+                    "id": "김헌수",
+                    "occupation": "국방부전력정책관",
+                    "original_speaker_id": "김헌수"
+                },
+                {
+                    "id": "서정인",
+                    "occupation": "방위산업진흥회방산진흥본부장",
+                    "original_speaker_id": "서정인"
+                },
+                {
+                    "id": "김용수",
+                    "occupation": "연합정밀㈜대표이사",
+                    "original_speaker_id": "김용수"
+                },
+                {
+                    "id": "손인춘",
+                    "occupation": "위원",
+                    "original_speaker_id": "손인춘"
+                },
+                {
+                    "id": "주호영",
+                    "occupation": "위원",
+                    "original_speaker_id": "주호영"
+                },
+                {
+                    "id": "송영근",
+                    "occupation": "위원",
+                    "original_speaker_id": "송영근"
+                },
+                {
+                    "id": "이욱진",
+                    "occupation": "연합정밀㈜국방사업팀장",
+                    "original_speaker_id": "이욱진"
+                },
+                {
+                    "id": "백헌영",
+                    "occupation": "방위사업청정책조정담당관",
+                    "original_speaker_id": "백헌영"
+                },
+                {
+                    "id": "성석호",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "성석호"
+                },
+                {
+                    "id": "권기원",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "권기원"
+                },
+                {
+                    "id": "홍일승",
+                    "occupation": "방위사업청재정정보화기획관",
+                    "original_speaker_id": "홍일승"
+                },
+                {
+                    "id": "김일동",
+                    "occupation": "방위사업청획득기획국장",
+                    "original_speaker_id": "김일동"
+                },
+                {
+                    "id": "김형택",
+                    "occupation": "방위사업청원가회계검증단장",
+                    "original_speaker_id": "김형택"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000021": {
+            "speaker": [
+                {
+                    "id": "남인순",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "남인순"
+                },
+                {
+                    "id": "최도자",
+                    "occupation": "진술인",
+                    "original_speaker_id": "최도자"
+                },
+                {
+                    "id": "황연옥",
+                    "occupation": "진술인",
+                    "original_speaker_id": "황연옥"
+                },
+                {
+                    "id": "이근철",
+                    "occupation": "진술인",
+                    "original_speaker_id": "이근철"
+                },
+                {
+                    "id": "김대식",
+                    "occupation": "진술인",
+                    "original_speaker_id": "김대식"
+                },
+                {
+                    "id": "온규홍",
+                    "occupation": "진술인",
+                    "original_speaker_id": "온규홍"
+                },
+                {
+                    "id": "최유미",
+                    "occupation": "진술인",
+                    "original_speaker_id": "최유미"
+                },
+                {
+                    "id": "최문희",
+                    "occupation": "진술인",
+                    "original_speaker_id": "최문희"
+                },
+                {
+                    "id": "최효영",
+                    "occupation": "진술인",
+                    "original_speaker_id": "최효영"
+                },
+                {
+                    "id": "이종진",
+                    "occupation": "위원",
+                    "original_speaker_id": "이종진"
+                },
+                {
+                    "id": "장정은",
+                    "occupation": "위원",
+                    "original_speaker_id": "장정은"
+                },
+                {
+                    "id": "이기일",
+                    "occupation": "보건복지부보육정책관",
+                    "original_speaker_id": "이기일"
+                },
+                {
+                    "id": "정연호",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "정연호"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000022": {
+            "speaker": [
+                {
+                    "id": "남인순",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "남인순"
+                },
+                {
+                    "id": "김영란",
+                    "occupation": "진술인",
+                    "original_speaker_id": "김영란"
+                },
+                {
+                    "id": "박정화",
+                    "occupation": "진술인",
+                    "original_speaker_id": "박정화"
+                },
+                {
+                    "id": "이명숙",
+                    "occupation": "진술인",
+                    "original_speaker_id": "이명숙"
+                },
+                {
+                    "id": "장정은",
+                    "occupation": "위원",
+                    "original_speaker_id": "장정은"
+                },
+                {
+                    "id": "방석배",
+                    "occupation": "보건복지부보육기반과장",
+                    "original_speaker_id": "방석배"
+                },
+                {
+                    "id": "차전경",
+                    "occupation": "보건복지부보육사업기획과장",
+                    "original_speaker_id": "차전경"
+                },
+                {
+                    "id": "장호연",
+                    "occupation": "보건복지부보육정책과장",
+                    "original_speaker_id": "장호연"
+                },
+                {
+                    "id": "김호연",
+                    "occupation": "진술인",
+                    "original_speaker_id": "김호연"
+                },
+                {
+                    "id": "박주현",
+                    "occupation": "진술인",
+                    "original_speaker_id": "박주현"
+                },
+                {
+                    "id": "김혜린",
+                    "occupation": "진술인",
+                    "original_speaker_id": "김혜린"
+                },
+                {
+                    "id": "정영선",
+                    "occupation": "진술인",
+                    "original_speaker_id": "정영선"
+                },
+                {
+                    "id": "김정록",
+                    "occupation": "위원",
+                    "original_speaker_id": "김정록"
+                },
+                {
+                    "id": "이기일",
+                    "occupation": "보건복지부보육정책관",
+                    "original_speaker_id": "이기일"
+                },
+                {
+                    "id": "양승조",
+                    "occupation": "위원",
+                    "original_speaker_id": "양승조"
+                },
+                {
+                    "id": "인재근",
+                    "occupation": "위원",
+                    "original_speaker_id": "인재근"
+                },
+                {
+                    "id": "정연호",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "정연호"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000023": {
+            "speaker": [
+                {
+                    "id": "신성범",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "신성범"
+                },
+                {
+                    "id": "유은혜",
+                    "occupation": "위원",
+                    "original_speaker_id": "유은혜"
+                },
+                {
+                    "id": "윤관석",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤관석"
+                },
+                {
+                    "id": "정재룡",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "정재룡"
+                },
+                {
+                    "id": "김회선",
+                    "occupation": "위원",
+                    "original_speaker_id": "김회선"
+                },
+                {
+                    "id": "이영",
+                    "occupation": "교육부차관",
+                    "original_speaker_id": "이영"
+                },
+                {
+                    "id": "박홍근",
+                    "occupation": "위원",
+                    "original_speaker_id": "박홍근"
+                },
+                {
+                    "id": "도종환",
+                    "occupation": "위원",
+                    "original_speaker_id": "도종환"
+                },
+                {
+                    "id": "배성근",
+                    "occupation": "교육부대학정책관",
+                    "original_speaker_id": "배성근"
+                },
+                {
+                    "id": "박인숙",
+                    "occupation": "위원",
+                    "original_speaker_id": "박인숙"
+                },
+                {
+                    "id": "이종훈",
+                    "occupation": "위원",
+                    "original_speaker_id": "이종훈"
+                },
+                {
+                    "id": "전우홍",
+                    "occupation": "교육부학생복지정책관",
+                    "original_speaker_id": "전우홍"
+                },
+                {
+                    "id": "박기영",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "박기영"
+                },
+                {
+                    "id": "박민권",
+                    "occupation": "문화체육관광부제1차관",
+                    "original_speaker_id": "박민권"
+                },
+                {
+                    "id": "이정화",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "이정화"
+                },
+                {
+                    "id": "김철민",
+                    "occupation": "문화체육관광부관광정책관",
+                    "original_speaker_id": "김철민"
+                },
+                {
+                    "id": "신익현",
+                    "occupation": "교육부정책기획관",
+                    "original_speaker_id": "신익현"
+                },
+                {
+                    "id": "김동원",
+                    "occupation": "교육부학교정책실장",
+                    "original_speaker_id": "김동원"
+                },
+                {
+                    "id": "한석수",
+                    "occupation": "교육부대학정책실장",
+                    "original_speaker_id": "한석수"
+                },
+                {
+                    "id": "우상일",
+                    "occupation": "문화체육관광부예술정책관",
+                    "original_speaker_id": "우상일"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000024": {
+            "speaker": [
+                {
+                    "id": "이철희",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "이철희"
+                },
+                {
+                    "id": "성석호",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "성석호"
+                },
+                {
+                    "id": "장명진",
+                    "occupation": "방위사업청장",
+                    "original_speaker_id": "장명진"
+                },
+                {
+                    "id": "경대수",
+                    "occupation": "위원",
+                    "original_speaker_id": "경대수"
+                },
+                {
+                    "id": "양병희",
+                    "occupation": "합동참모본부전력기획부장",
+                    "original_speaker_id": "양병희"
+                },
+                {
+                    "id": "김종대",
+                    "occupation": "위원",
+                    "original_speaker_id": "김종대"
+                },
+                {
+                    "id": "이철규",
+                    "occupation": "위원",
+                    "original_speaker_id": "이철규"
+                },
+                {
+                    "id": "이상문",
+                    "occupation": "방위사업청유도무기사업부장",
+                    "original_speaker_id": "이상문"
+                },
+                {
+                    "id": "김중로",
+                    "occupation": "위원",
+                    "original_speaker_id": "김중로"
+                },
+                {
+                    "id": "이상훈",
+                    "occupation": "방위사업청재정분석기획관",
+                    "original_speaker_id": "이상훈"
+                },
+                {
+                    "id": "백승주",
+                    "occupation": "위원",
+                    "original_speaker_id": "백승주"
+                },
+                {
+                    "id": "김용관",
+                    "occupation": "해군본부전력소요차장",
+                    "original_speaker_id": "김용관"
+                },
+                {
+                    "id": "백윤형",
+                    "occupation": "방위사업청항공기사업부장",
+                    "original_speaker_id": "백윤형"
+                },
+                {
+                    "id": "박창명",
+                    "occupation": "병무청장",
+                    "original_speaker_id": "박창명"
+                },
+                {
+                    "id": "박철규",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "박철규"
+                },
+                {
+                    "id": "김종호",
+                    "occupation": "병무청병역자원국장",
+                    "original_speaker_id": "김종호"
+                },
+                {
+                    "id": "김진표",
+                    "occupation": "위원",
+                    "original_speaker_id": "김진표"
+                },
+                {
+                    "id": "조규동",
+                    "occupation": "병무청사회복무국장",
+                    "original_speaker_id": "조규동"
+                },
+                {
+                    "id": "정창근",
+                    "occupation": "병무청운영지원과장",
+                    "original_speaker_id": "정창근"
+                },
+                {
+                    "id": "김헌수",
+                    "occupation": "국방부전력정책관",
+                    "original_speaker_id": "김헌수"
+                },
+                {
+                    "id": "김상철",
+                    "occupation": "육군본부기획관리참모부장",
+                    "original_speaker_id": "김상철"
+                },
+                {
+                    "id": "천정수",
+                    "occupation": "해군본부기획관리참모부장",
+                    "original_speaker_id": "천정수"
+                },
+                {
+                    "id": "이성용",
+                    "occupation": "해군본부공군본부기획관리참모부장",
+                    "original_speaker_id": "이성용"
+                },
+                {
+                    "id": "전황기",
+                    "occupation": "해군본부해병대사령부전력기획처장",
+                    "original_speaker_id": "전황기"
+                },
+                {
+                    "id": "박우신",
+                    "occupation": "병무청기획조정관",
+                    "original_speaker_id": "박우신"
+                },
+                {
+                    "id": "최영래",
+                    "occupation": "병무청입영동원국장",
+                    "original_speaker_id": "최영래"
+                },
+                {
+                    "id": "김일동",
+                    "occupation": "방위사업청획득기획국장",
+                    "original_speaker_id": "김일동"
+                },
+                {
+                    "id": "정광선",
+                    "occupation": "방위사업청한국형전투기사업단장",
+                    "original_speaker_id": "정광선"
+                },
+                {
+                    "id": "정일식",
+                    "occupation": "방위사업청차세대잠수함사업단장",
+                    "original_speaker_id": "정일식"
+                },
+                {
+                    "id": "유해일",
+                    "occupation": "방위사업청계획운영부장",
+                    "original_speaker_id": "유해일"
+                },
+                {
+                    "id": "강은호",
+                    "occupation": "방위사업청지휘정찰사업부장",
+                    "original_speaker_id": "강은호"
+                },
+                {
+                    "id": "김대석",
+                    "occupation": "방위사업청기동화력사업부장",
+                    "original_speaker_id": "김대석"
+                },
+                {
+                    "id": "이상명",
+                    "occupation": "방위사업청한국형헬기사업단장",
+                    "original_speaker_id": "이상명"
+                },
+                {
+                    "id": "신진교",
+                    "occupation": "방위사업청국방과학연구소연구계획부장",
+                    "original_speaker_id": "신진교"
+                },
+                {
+                    "id": "최중환",
+                    "occupation": "방위사업청국방기술품질원기획조정부장",
+                    "original_speaker_id": "최중환"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000025": {
+            "speaker": [
+                {
+                    "id": "김경협",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김경협"
+                },
+                {
+                    "id": "이종후",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "이종후"
+                },
+                {
+                    "id": "조태열",
+                    "occupation": "외교부제2차관",
+                    "original_speaker_id": "조태열"
+                },
+                {
+                    "id": "이인영",
+                    "occupation": "위원",
+                    "original_speaker_id": "이인영"
+                },
+                {
+                    "id": "윤영석",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤영석"
+                },
+                {
+                    "id": "이태규",
+                    "occupation": "위원",
+                    "original_speaker_id": "이태규"
+                },
+                {
+                    "id": "김용관",
+                    "occupation": "산림청해외자원협력관",
+                    "original_speaker_id": "김용관"
+                },
+                {
+                    "id": "정양석",
+                    "occupation": "위원",
+                    "original_speaker_id": "정양석"
+                },
+                {
+                    "id": "박철주",
+                    "occupation": "외교부국제법률국장",
+                    "original_speaker_id": "박철주"
+                },
+                {
+                    "id": "이헌",
+                    "occupation": "외교부조정기획관",
+                    "original_speaker_id": "이헌"
+                },
+                {
+                    "id": "정기홍",
+                    "occupation": "외교부유럽국",
+                    "original_speaker_id": "정기홍"
+                },
+                {
+                    "id": "임석규",
+                    "occupation": "국무조정실녹색성장지원단부단장",
+                    "original_speaker_id": "임석규"
+                },
+                {
+                    "id": "이형종",
+                    "occupation": "외교부기후변화환경외교국장",
+                    "original_speaker_id": "이형종"
+                },
+                {
+                    "id": "배용근",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "배용근"
+                },
+                {
+                    "id": "유정현",
+                    "occupation": "외교부남아시아태평양국장",
+                    "original_speaker_id": "유정현"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000026": {
+            "speaker": [
+                {
+                    "id": "박남춘",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "박남춘"
+                },
+                {
+                    "id": "이성호",
+                    "occupation": "국민안전처차관",
+                    "original_speaker_id": "이성호"
+                },
+                {
+                    "id": "박수철",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "박수철"
+                },
+                {
+                    "id": "김광용",
+                    "occupation": "국민안전처안전기획과장",
+                    "original_speaker_id": "김광용"
+                },
+                {
+                    "id": "윤재옥",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤재옥"
+                },
+                {
+                    "id": "황영철",
+                    "occupation": "위원",
+                    "original_speaker_id": "황영철"
+                },
+                {
+                    "id": "표창원",
+                    "occupation": "위원",
+                    "original_speaker_id": "표창원"
+                },
+                {
+                    "id": "홍철호",
+                    "occupation": "위원",
+                    "original_speaker_id": "홍철호"
+                },
+                {
+                    "id": "정종제",
+                    "occupation": "국민안전처안전정책실장",
+                    "original_speaker_id": "정종제"
+                },
+                {
+                    "id": "임재웅",
+                    "occupation": "국민안전처자연재난대응과장",
+                    "original_speaker_id": "임재웅"
+                },
+                {
+                    "id": "강석호",
+                    "occupation": "위원",
+                    "original_speaker_id": "강석호"
+                },
+                {
+                    "id": "김병진",
+                    "occupation": "입법조사관",
+                    "original_speaker_id": "김병진"
+                },
+                {
+                    "id": "장정숙",
+                    "occupation": "위원",
+                    "original_speaker_id": "장정숙"
+                },
+                {
+                    "id": "이재정",
+                    "occupation": "위원",
+                    "original_speaker_id": "이재정"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000027": {
+            "speaker": [
+                {
+                    "id": "권은희",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "권은희"
+                },
+                {
+                    "id": "김성렬",
+                    "occupation": "행정자치부차관",
+                    "original_speaker_id": "김성렬"
+                },
+                {
+                    "id": "박수철",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "박수철"
+                },
+                {
+                    "id": "안택순",
+                    "occupation": "기획재정부조세총괄정책관",
+                    "original_speaker_id": "안택순"
+                },
+                {
+                    "id": "장제원",
+                    "occupation": "위원",
+                    "original_speaker_id": "장제원"
+                },
+                {
+                    "id": "김경만",
+                    "occupation": "중소기업중앙회경제정책본부장",
+                    "original_speaker_id": "김경만"
+                },
+                {
+                    "id": "김홍환",
+                    "occupation": "대한민국시도지사협의회정책연구센터장",
+                    "original_speaker_id": "김홍환"
+                },
+                {
+                    "id": "이상범",
+                    "occupation": "전국시장·군수·구청장협의회전문위원",
+                    "original_speaker_id": "이상범"
+                },
+                {
+                    "id": "김영진",
+                    "occupation": "위원",
+                    "original_speaker_id": "김영진"
+                },
+                {
+                    "id": "진선미",
+                    "occupation": "위원",
+                    "original_speaker_id": "진선미"
+                },
+                {
+                    "id": "김정우",
+                    "occupation": "위원",
+                    "original_speaker_id": "김정우"
+                },
+                {
+                    "id": "유민봉",
+                    "occupation": "위원",
+                    "original_speaker_id": "유민봉"
+                },
+                {
+                    "id": "박성중",
+                    "occupation": "위원",
+                    "original_speaker_id": "박성중"
+                },
+                {
+                    "id": "이명수",
+                    "occupation": "위원",
+                    "original_speaker_id": "이명수"
+                },
+                {
+                    "id": "김현기",
+                    "occupation": "행정자치부지방재정세제실장",
+                    "original_speaker_id": "김현기"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000028": {
+            "speaker": [
+                {
+                    "id": "윤영일",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "윤영일"
+                },
+                {
+                    "id": "최시억",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "최시억"
+                },
+                {
+                    "id": "맹성규",
+                    "occupation": "국토교통부제2차관",
+                    "original_speaker_id": "맹성규"
+                },
+                {
+                    "id": "윤후덕",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤후덕"
+                },
+                {
+                    "id": "권병윤",
+                    "occupation": "국토교통부교통물류실장",
+                    "original_speaker_id": "권병윤"
+                },
+                {
+                    "id": "최인호",
+                    "occupation": "위원",
+                    "original_speaker_id": "최인호"
+                },
+                {
+                    "id": "안호영",
+                    "occupation": "위원",
+                    "original_speaker_id": "안호영"
+                },
+                {
+                    "id": "백승근",
+                    "occupation": "국토교통부철도안전정책관",
+                    "original_speaker_id": "백승근"
+                },
+                {
+                    "id": "황희",
+                    "occupation": "위원",
+                    "original_speaker_id": "황희"
+                },
+                {
+                    "id": "서훈택",
+                    "occupation": "국토교통부항공정책실장",
+                    "original_speaker_id": "서훈택"
+                },
+                {
+                    "id": "김용원",
+                    "occupation": "국토교통부항공보안과장",
+                    "original_speaker_id": "김용원"
+                },
+                {
+                    "id": "고상룡",
+                    "occupation": "국토교통부항공안전정책과",
+                    "original_speaker_id": "고상룡"
+                },
+                {
+                    "id": "정용식",
+                    "occupation": "국토교통부첨단항공과장",
+                    "original_speaker_id": "정용식"
+                },
+                {
+                    "id": "황성연",
+                    "occupation": "국토교통부항공안전정책관",
+                    "original_speaker_id": "황성연"
+                },
+                {
+                    "id": "방윤석",
+                    "occupation": "국토교통부공항안전환경과장",
+                    "original_speaker_id": "방윤석"
+                },
+                {
+                    "id": "손명수",
+                    "occupation": "국토교통부공항항행정책관",
+                    "original_speaker_id": "손명수"
+                },
+                {
+                    "id": "박맹우",
+                    "occupation": "위원",
+                    "original_speaker_id": "박맹우"
+                },
+                {
+                    "id": "이헌승",
+                    "occupation": "위원",
+                    "original_speaker_id": "이헌승"
+                },
+                {
+                    "id": "정용기",
+                    "occupation": "위원",
+                    "original_speaker_id": "정용기"
+                },
+                {
+                    "id": "함진규",
+                    "occupation": "위원",
+                    "original_speaker_id": "함진규"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000029": {
+            "speaker": [
+                {
+                    "id": "김경협",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김경협"
+                },
+                {
+                    "id": "유상조",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "유상조"
+                },
+                {
+                    "id": "천해성",
+                    "occupation": "통일부차관",
+                    "original_speaker_id": "천해성"
+                },
+                {
+                    "id": "이태규",
+                    "occupation": "위원",
+                    "original_speaker_id": "이태규"
+                },
+                {
+                    "id": "윤영석",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤영석"
+                },
+                {
+                    "id": "서정배",
+                    "occupation": "통일교육원장직무대리",
+                    "original_speaker_id": "서정배"
+                },
+                {
+                    "id": "이인영",
+                    "occupation": "위원",
+                    "original_speaker_id": "이인영"
+                },
+                {
+                    "id": "이수혁",
+                    "occupation": "위원",
+                    "original_speaker_id": "이수혁"
+                },
+                {
+                    "id": "유기준",
+                    "occupation": "위원",
+                    "original_speaker_id": "유기준"
+                },
+                {
+                    "id": "이주태",
+                    "occupation": "통일부교류협력국장",
+                    "original_speaker_id": "이주태"
+                },
+                {
+                    "id": "이종후",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "이종후"
+                },
+                {
+                    "id": "박광호",
+                    "occupation": "통일부정책기획관",
+                    "original_speaker_id": "박광호"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000030": {
+            "speaker": [
+                {
+                    "id": "진선미",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "진선미"
+                },
+                {
+                    "id": "류희인",
+                    "occupation": "행정안전부재난안전관리본부장",
+                    "original_speaker_id": "류희인"
+                },
+                {
+                    "id": "김부년",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "김부년"
+                },
+                {
+                    "id": "윤재옥",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤재옥"
+                },
+                {
+                    "id": "김원순",
+                    "occupation": "한국승강기관리산업협동조합이사장",
+                    "original_speaker_id": "김원순"
+                },
+                {
+                    "id": "이재복",
+                    "occupation": "한국승강기공업협동조합이사장",
+                    "original_speaker_id": "이재복"
+                },
+                {
+                    "id": "최석규",
+                    "occupation": "현대엘리베이터상무이사",
+                    "original_speaker_id": "최석규"
+                },
+                {
+                    "id": "표창원",
+                    "occupation": "위원",
+                    "original_speaker_id": "표창원"
+                },
+                {
+                    "id": "황영철",
+                    "occupation": "위원",
+                    "original_speaker_id": "황영철"
+                },
+                {
+                    "id": "이용호",
+                    "occupation": "위원",
+                    "original_speaker_id": "이용호"
+                },
+                {
+                    "id": "강석호",
+                    "occupation": "위원",
+                    "original_speaker_id": "강석호"
+                },
+                {
+                    "id": "김영호",
+                    "occupation": "위원",
+                    "original_speaker_id": "김영호"
+                },
+                {
+                    "id": "박성중",
+                    "occupation": "위원",
+                    "original_speaker_id": "박성중"
+                },
+                {
+                    "id": "우재봉",
+                    "occupation": "소방청차장",
+                    "original_speaker_id": "우재봉"
+                },
+                {
+                    "id": "이한경",
+                    "occupation": "행정안전부안전관리정책관",
+                    "original_speaker_id": "이한경"
+                },
+                {
+                    "id": "이명수",
+                    "occupation": "행정안전부승강기안전과장",
+                    "original_speaker_id": "이명수"
+                },
+                {
+                    "id": "김성곤",
+                    "occupation": "소방청기획조정관",
+                    "original_speaker_id": "김성곤"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000031": {
+            "speaker": [
+                {
+                    "id": "하태경",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "河泰慶"
+                },
+                {
+                    "id": "김양건",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "김양건"
+                },
+                {
+                    "id": "이성기",
+                    "occupation": "고용노동부차관",
+                    "original_speaker_id": "이성기"
+                },
+                {
+                    "id": "문진국",
+                    "occupation": "위원",
+                    "original_speaker_id": "문진국"
+                },
+                {
+                    "id": "임이자",
+                    "occupation": "위원",
+                    "original_speaker_id": "임이자"
+                },
+                {
+                    "id": "한정애",
+                    "occupation": "위원",
+                    "original_speaker_id": "한정애"
+                },
+                {
+                    "id": "김삼화",
+                    "occupation": "위원",
+                    "original_speaker_id": "김삼화"
+                },
+                {
+                    "id": "김대환",
+                    "occupation": "고용노동부국제협력관",
+                    "original_speaker_id": "김대환"
+                },
+                {
+                    "id": "신보라",
+                    "occupation": "위원",
+                    "original_speaker_id": "신보라"
+                },
+                {
+                    "id": "서형수",
+                    "occupation": "위원",
+                    "original_speaker_id": "서형수"
+                },
+                {
+                    "id": "강병원",
+                    "occupation": "의원",
+                    "original_speaker_id": "강병원"
+                },
+                {
+                    "id": "신창현",
+                    "occupation": "위원",
+                    "original_speaker_id": "신창현"
+                },
+                {
+                    "id": "이용득",
+                    "occupation": "위원",
+                    "original_speaker_id": "이용득"
+                },
+                {
+                    "id": "장석춘",
+                    "occupation": "위원",
+                    "original_speaker_id": "장석춘"
+                },
+                {
+                    "id": "이정미",
+                    "occupation": "위원",
+                    "original_speaker_id": "이정미"
+                },
+                {
+                    "id": "송주아",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "송주아"
+                },
+                {
+                    "id": "박성희",
+                    "occupation": "고용노동부노동시장정책관",
+                    "original_speaker_id": "박성희"
+                },
+                {
+                    "id": "권혁태",
+                    "occupation": "고용노동부고용서비스정책관",
+                    "original_speaker_id": "권혁태"
+                },
+                {
+                    "id": "김덕호",
+                    "occupation": "고용노동부청년여성고용정책관",
+                    "original_speaker_id": "김덕호"
+                },
+                {
+                    "id": "정형우",
+                    "occupation": "고용노동부근로기준정책관",
+                    "original_speaker_id": "정형우"
+                },
+                {
+                    "id": "김왕",
+                    "occupation": "고용노동부산재예방보상정책국장",
+                    "original_speaker_id": "김왕"
+                },
+                {
+                    "id": "김용호",
+                    "occupation": "고용노동부정책기획관",
+                    "original_speaker_id": "김용호"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000032": {
+            "speaker": [
+                {
+                    "id": "김동철",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김동철"
+                },
+                {
+                    "id": "김양건",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "김양건"
+                },
+                {
+                    "id": "임서정",
+                    "occupation": "고용노동부차관",
+                    "original_speaker_id": "임서정"
+                },
+                {
+                    "id": "신보라",
+                    "occupation": "위원",
+                    "original_speaker_id": "신보라"
+                },
+                {
+                    "id": "송옥주",
+                    "occupation": "위원",
+                    "original_speaker_id": "송옥주"
+                },
+                {
+                    "id": "이장우",
+                    "occupation": "위원",
+                    "original_speaker_id": "이장우"
+                },
+                {
+                    "id": "한정애",
+                    "occupation": "위원",
+                    "original_speaker_id": "한정애"
+                },
+                {
+                    "id": "설훈",
+                    "occupation": "위원",
+                    "original_speaker_id": "설훈"
+                },
+                {
+                    "id": "송홍석",
+                    "occupation": "고용노동부고령사회인력정책관",
+                    "original_speaker_id": "송홍석"
+                },
+                {
+                    "id": "정익수",
+                    "occupation": "고용노동부장애인고용과",
+                    "original_speaker_id": "정익수"
+                },
+                {
+                    "id": "장신철",
+                    "occupation": "고용노동부직업능력정책국장",
+                    "original_speaker_id": "장신철"
+                },
+                {
+                    "id": "임이자",
+                    "occupation": "위원",
+                    "original_speaker_id": "임이자"
+                },
+                {
+                    "id": "김상용",
+                    "occupation": "고용노동부일학습병행정책과장",
+                    "original_speaker_id": "김상용"
+                },
+                {
+                    "id": "김경선",
+                    "occupation": "고용노동부근로기준정책관",
+                    "original_speaker_id": "김경선"
+                },
+                {
+                    "id": "주평식",
+                    "occupation": "고용노동부산재보상정책과장",
+                    "original_speaker_id": "주평식"
+                },
+                {
+                    "id": "이창길",
+                    "occupation": "고용노동부노사협력정책과장",
+                    "original_speaker_id": "이창길"
+                },
+                {
+                    "id": "전현희",
+                    "occupation": "위원",
+                    "original_speaker_id": "전현희"
+                },
+                {
+                    "id": "이정미",
+                    "occupation": "위원",
+                    "original_speaker_id": "이정미"
+                },
+                {
+                    "id": "송주아",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "송주아"
+                },
+                {
+                    "id": "박화진",
+                    "occupation": "고용노동부기획조정실장",
+                    "original_speaker_id": "박화진"
+                },
+                {
+                    "id": "박성희",
+                    "occupation": "고용노동부노동시장정책관",
+                    "original_speaker_id": "박성희"
+                },
+                {
+                    "id": "김영중",
+                    "occupation": "고용노동부고용서비스정책관",
+                    "original_speaker_id": "김영중"
+                },
+                {
+                    "id": "김덕호",
+                    "occupation": "고용노동부청년여성고용정책관",
+                    "original_speaker_id": "김덕호"
+                },
+                {
+                    "id": "김민석",
+                    "occupation": "고용노동부노사협력정책관",
+                    "original_speaker_id": "김민석"
+                },
+                {
+                    "id": "박영만",
+                    "occupation": "고용노동부산재예방보상정책국장",
+                    "original_speaker_id": "박영만"
+                },
+                {
+                    "id": "선우정택",
+                    "occupation": "고용노동부정책기획관",
+                    "original_speaker_id": "선우정택"
+                },
+                {
+                    "id": "이헌수",
+                    "occupation": "고용노동부대변인",
+                    "original_speaker_id": "이헌수"
+                },
+                {
+                    "id": "박준효",
+                    "occupation": "고용노동부감사관",
+                    "original_speaker_id": "박준효"
+                },
+                {
+                    "id": "시민석",
+                    "occupation": "고용노동부경제사회노동위원회운영국장",
+                    "original_speaker_id": "시민석"
+                },
+                {
+                    "id": "장근섭",
+                    "occupation": "고용노동부중앙노동위원회조정심판국장",
+                    "original_speaker_id": "장근섭"
+                },
+                {
+                    "id": "정형우",
+                    "occupation": "고용노동부일자리위원회부단장",
+                    "original_speaker_id": "정형우"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000033": {
+            "speaker": [
+                {
+                    "id": "조승래",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "조승래"
+                },
+                {
+                    "id": "조기열",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "조기열"
+                },
+                {
+                    "id": "박백범",
+                    "occupation": "교육부차관",
+                    "original_speaker_id": "박백범"
+                },
+                {
+                    "id": "정재룡",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "정재룡"
+                },
+                {
+                    "id": "박용진",
+                    "occupation": "위원",
+                    "original_speaker_id": "박용진"
+                },
+                {
+                    "id": "곽상도",
+                    "occupation": "위원",
+                    "original_speaker_id": "곽상도"
+                },
+                {
+                    "id": "박찬대",
+                    "occupation": "위원",
+                    "original_speaker_id": "박찬대"
+                },
+                {
+                    "id": "임재훈",
+                    "occupation": "위원",
+                    "original_speaker_id": "임재훈"
+                },
+                {
+                    "id": "전희경",
+                    "occupation": "위원",
+                    "original_speaker_id": "전희경"
+                },
+                {
+                    "id": "김현아",
+                    "occupation": "위원",
+                    "original_speaker_id": "김현아"
+                },
+                {
+                    "id": "박경미",
+                    "occupation": "위원",
+                    "original_speaker_id": "박경미"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000034": {
+            "speaker": [
+                {
+                    "id": "박병석",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "박병석"
+                },
+                {
+                    "id": "송영길",
+                    "occupation": "위원",
+                    "original_speaker_id": "송영길"
+                },
+                {
+                    "id": "이정현",
+                    "occupation": "위원",
+                    "original_speaker_id": "이정현"
+                },
+                {
+                    "id": "조세영",
+                    "occupation": "외교부제1차관",
+                    "original_speaker_id": "조세영"
+                },
+                {
+                    "id": "정기홍",
+                    "occupation": "외교부유럽국장",
+                    "original_speaker_id": "정기홍"
+                },
+                {
+                    "id": "정양석",
+                    "occupation": "위원",
+                    "original_speaker_id": "정양석"
+                },
+                {
+                    "id": "강상욱",
+                    "occupation": "외교부동북아시아국장",
+                    "original_speaker_id": "강상욱"
+                },
+                {
+                    "id": "권기원",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "권기원"
+                },
+                {
+                    "id": "유상조",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "유상조"
+                },
+                {
+                    "id": "김영완",
+                    "occupation": "외교부조정기획관",
+                    "original_speaker_id": "김영완"
+                },
+                {
+                    "id": "이상렬",
+                    "occupation": "외교부아시아태평양국심의관",
+                    "original_speaker_id": "이상렬"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000035": {
+            "speaker": [
+                {
+                    "id": "김한표",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김한표"
+                },
+                {
+                    "id": "박백범",
+                    "occupation": "교육부차관",
+                    "original_speaker_id": "박백범"
+                },
+                {
+                    "id": "여영국",
+                    "occupation": "위원",
+                    "original_speaker_id": "여영국"
+                },
+                {
+                    "id": "신경민",
+                    "occupation": "위원",
+                    "original_speaker_id": "신경민"
+                },
+                {
+                    "id": "전희경",
+                    "occupation": "위원",
+                    "original_speaker_id": "전희경"
+                },
+                {
+                    "id": "신종숙",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "신종숙"
+                },
+                {
+                    "id": "김해영",
+                    "occupation": "위원",
+                    "original_speaker_id": "김해영"
+                },
+                {
+                    "id": "주명현",
+                    "occupation": "교육부기획조정실장",
+                    "original_speaker_id": "주명현"
+                },
+                {
+                    "id": "김영재",
+                    "occupation": "교육부교과서정책과장",
+                    "original_speaker_id": "김영재"
+                },
+                {
+                    "id": "이승재",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "이승재"
+                },
+                {
+                    "id": "임재훈",
+                    "occupation": "위원",
+                    "original_speaker_id": "임재훈"
+                },
+                {
+                    "id": "김태경",
+                    "occupation": "교육부대학재정장학과장",
+                    "original_speaker_id": "김태경"
+                },
+                {
+                    "id": "김종순",
+                    "occupation": "한국장학재단기획조정부장",
+                    "original_speaker_id": "김종순"
+                },
+                {
+                    "id": "이종학",
+                    "occupation": "사립학교교직원연금공단재무팀장",
+                    "original_speaker_id": "이종학"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000036": {
+            "speaker": [
+                {
+                    "id": "이채익",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "이채익"
+                },
+                {
+                    "id": "권헌영",
+                    "occupation": "진술인",
+                    "original_speaker_id": "권헌영"
+                },
+                {
+                    "id": "최환용",
+                    "occupation": "진술인",
+                    "original_speaker_id": "최환용"
+                },
+                {
+                    "id": "권은희",
+                    "occupation": "위원",
+                    "original_speaker_id": "권은희"
+                },
+                {
+                    "id": "김성태",
+                    "occupation": "위원",
+                    "original_speaker_id": "김성태"
+                },
+                {
+                    "id": "김병관",
+                    "occupation": "위원",
+                    "original_speaker_id": "김병관"
+                },
+                {
+                    "id": "김민기",
+                    "occupation": "위원",
+                    "original_speaker_id": "김민기"
+                },
+                {
+                    "id": "김정해",
+                    "occupation": "진술인",
+                    "original_speaker_id": "김정해"
+                },
+                {
+                    "id": "김회창",
+                    "occupation": "진술인",
+                    "original_speaker_id": "김회창"
+                },
+                {
+                    "id": "김영호",
+                    "occupation": "위원",
+                    "original_speaker_id": "김영호"
+                },
+                {
+                    "id": "송상락",
+                    "occupation": "행정안전부조직정책관",
+                    "original_speaker_id": "송상락"
+                },
+                {
+                    "id": "김한정",
+                    "occupation": "위원",
+                    "original_speaker_id": "김한정"
+                },
+                {
+                    "id": "윤재옥",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤재옥"
+                },
+                {
+                    "id": "조의섭",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "조의섭"
+                },
+                {
+                    "id": "김성중",
+                    "occupation": "행정안전부정부혁신기획관",
+                    "original_speaker_id": "김성중"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000037": {
+            "speaker": [
+                {
+                    "id": "이채익",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "이채익"
+                },
+                {
+                    "id": "조의섭",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "조의섭"
+                },
+                {
+                    "id": "윤종인",
+                    "occupation": "행정안전부차관",
+                    "original_speaker_id": "윤종인"
+                },
+                {
+                    "id": "권은희",
+                    "occupation": "위원",
+                    "original_speaker_id": "권은희"
+                },
+                {
+                    "id": "김장회",
+                    "occupation": "행정안전부지역경제지원관",
+                    "original_speaker_id": "김장회"
+                },
+                {
+                    "id": "김영호",
+                    "occupation": "위원",
+                    "original_speaker_id": "김영호"
+                },
+                {
+                    "id": "김민기",
+                    "occupation": "위원",
+                    "original_speaker_id": "김민기"
+                },
+                {
+                    "id": "김성태",
+                    "occupation": "위원",
+                    "original_speaker_id": "김성태"
+                },
+                {
+                    "id": "홍문표",
+                    "occupation": "위원",
+                    "original_speaker_id": "홍문표"
+                },
+                {
+                    "id": "김기창",
+                    "occupation": "새마을금고중앙회전무이사",
+                    "original_speaker_id": "김기창"
+                },
+                {
+                    "id": "김병관",
+                    "occupation": "위원",
+                    "original_speaker_id": "김병관"
+                },
+                {
+                    "id": "김한정",
+                    "occupation": "위원",
+                    "original_speaker_id": "김한정"
+                },
+                {
+                    "id": "윤재옥",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤재옥"
+                },
+                {
+                    "id": "최장혁",
+                    "occupation": "행정안전부전자정부국장",
+                    "original_speaker_id": "최장혁"
+                },
+                {
+                    "id": "강유민",
+                    "occupation": "개인정보보호위원회사무국장",
+                    "original_speaker_id": "강유민"
+                },
+                {
+                    "id": "최광희",
+                    "occupation": "한국인터넷진흥원개인정보정책단장",
+                    "original_speaker_id": "최광희"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000038": {
+            "speaker": [
+                {
+                    "id": "김동철",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김동철"
+                },
+                {
+                    "id": "윤광식",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "윤광식"
+                },
+                {
+                    "id": "임이자",
+                    "occupation": "위원",
+                    "original_speaker_id": "임이자"
+                },
+                {
+                    "id": "한정애",
+                    "occupation": "위원",
+                    "original_speaker_id": "한정애"
+                },
+                {
+                    "id": "이장우",
+                    "occupation": "위원",
+                    "original_speaker_id": "이장우"
+                },
+                {
+                    "id": "설훈",
+                    "occupation": "위원",
+                    "original_speaker_id": "설훈"
+                },
+                {
+                    "id": "박천규",
+                    "occupation": "환경부차관",
+                    "original_speaker_id": "박천규"
+                },
+                {
+                    "id": "이영기",
+                    "occupation": "환경부자원순환정책관",
+                    "original_speaker_id": "이영기"
+                },
+                {
+                    "id": "김도훈",
+                    "occupation": "강효상의원비서관",
+                    "original_speaker_id": "김도훈"
+                },
+                {
+                    "id": "강효상",
+                    "occupation": "위원",
+                    "original_speaker_id": "강효상"
+                },
+                {
+                    "id": "김동구",
+                    "occupation": "환경부환경경제정책관",
+                    "original_speaker_id": "김동구"
+                },
+                {
+                    "id": "송옥주",
+                    "occupation": "위원",
+                    "original_speaker_id": "송옥주"
+                },
+                {
+                    "id": "전현희",
+                    "occupation": "위원",
+                    "original_speaker_id": "전현희"
+                },
+                {
+                    "id": "오정례",
+                    "occupation": "바른미래당수석전문위원",
+                    "original_speaker_id": "오정례"
+                },
+                {
+                    "id": "정환진",
+                    "occupation": "환경부물산업협력과장",
+                    "original_speaker_id": "정환진"
+                },
+                {
+                    "id": "한명실",
+                    "occupation": "환경부물산업클러스터추진기획단팀장",
+                    "original_speaker_id": "한명실"
+                },
+                {
+                    "id": "김영훈",
+                    "occupation": "환경부물통합정책국장",
+                    "original_speaker_id": "김영훈"
+                },
+                {
+                    "id": "박미자",
+                    "occupation": "환경부물환경정책국장",
+                    "original_speaker_id": "박미자"
+                },
+                {
+                    "id": "박하준",
+                    "occupation": "환경부수자원정책국장",
+                    "original_speaker_id": "박하준"
+                },
+                {
+                    "id": "주대영",
+                    "occupation": "환경부정책기획관",
+                    "original_speaker_id": "주대영"
+                },
+                {
+                    "id": "이호중",
+                    "occupation": "환경부자연보전정책관",
+                    "original_speaker_id": "이호중"
+                },
+                {
+                    "id": "금한승",
+                    "occupation": "환경부대기환경정책관",
+                    "original_speaker_id": "금한승"
+                },
+                {
+                    "id": "황석태",
+                    "occupation": "환경부기후변화정책관",
+                    "original_speaker_id": "황석태"
+                },
+                {
+                    "id": "하미나",
+                    "occupation": "환경부환경보건정책관",
+                    "original_speaker_id": "하미나"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000039": {
+            "speaker": [
+                {
+                    "id": "김정우",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "김정우"
+                },
+                {
+                    "id": "김경협",
+                    "occupation": "위원",
+                    "original_speaker_id": "김경협"
+                },
+                {
+                    "id": "송병철",
+                    "occupation": "전문위원",
+                    "original_speaker_id": "송병철"
+                },
+                {
+                    "id": "김용범",
+                    "occupation": "기획재정부제1차관",
+                    "original_speaker_id": "김용범"
+                },
+                {
+                    "id": "윤후덕",
+                    "occupation": "위원",
+                    "original_speaker_id": "윤후덕"
+                },
+                {
+                    "id": "추경호",
+                    "occupation": "위원",
+                    "original_speaker_id": "추경호"
+                },
+                {
+                    "id": "임재현",
+                    "occupation": "기획재정부세제실장",
+                    "original_speaker_id": "임재현"
+                },
+                {
+                    "id": "김영진",
+                    "occupation": "위원",
+                    "original_speaker_id": "김영진"
+                },
+                {
+                    "id": "강병원",
+                    "occupation": "위원",
+                    "original_speaker_id": "강병원"
+                },
+                {
+                    "id": "유성엽",
+                    "occupation": "위원",
+                    "original_speaker_id": "유성엽"
+                },
+                {
+                    "id": "고광효",
+                    "occupation": "기획재정부소득법인세정책관",
+                    "original_speaker_id": "고광효"
+                },
+                {
+                    "id": "김태주",
+                    "occupation": "기획재정부조세총괄정책관",
+                    "original_speaker_id": "김태주"
+                },
+                {
+                    "id": "이호동",
+                    "occupation": "기획재정부재산소비세정책관",
+                    "original_speaker_id": "이호동"
+                },
+                {
+                    "id": "주태현",
+                    "occupation": "기획재정부관세정책관",
+                    "original_speaker_id": "주태현"
+                }
+            ]
+        }
+    },
+    {
+        "SBRW2100000040": {
+            "speaker": [
+                {
+                    "id": "신용현",
+                    "occupation": "소위원장",
+                    "original_speaker_id": "신용현"
+                },
+                {
+                    "id": "차인순",
+                    "occupation": "수석전문위원",
+                    "original_speaker_id": "차인순"
+                },
+                {
+                    "id": "김희경",
+                    "occupation": "여성가족부차관",
+                    "original_speaker_id": "김희경"
+                },
+                {
+                    "id": "송희경",
+                    "occupation": "위원",
+                    "original_speaker_id": "송희경"
+                },
+                {
+                    "id": "정춘숙",
+                    "occupation": "위원",
+                    "original_speaker_id": "정춘숙"
+                },
+                {
+                    "id": "표창원",
+                    "occupation": "위원",
+                    "original_speaker_id": "표창원"
+                },
+                {
+                    "id": "김현아",
+                    "occupation": "위원",
+                    "original_speaker_id": "김현아"
+                },
+                {
+                    "id": "신보라",
+                    "occupation": "위원",
+                    "original_speaker_id": "신보라"
+                },
+                {
+                    "id": "김권영",
+                    "occupation": "여성가족부가족정책관",
+                    "original_speaker_id": "김권영"
+                },
+                {
+                    "id": "송옥주",
+                    "occupation": "위원",
+                    "original_speaker_id": "송옥주"
+                },
+                {
+                    "id": "신경민",
+                    "occupation": "위원",
+                    "original_speaker_id": "신경민"
+                },
+                {
+                    "id": "김수옥",
+                    "occupation": "입법심의관",
+                    "original_speaker_id": "김수옥"
+                },
+                {
+                    "id": "김종열",
+                    "occupation": "여성가족부기획조정실장",
+                    "original_speaker_id": "김종열"
+                },
+                {
+                    "id": "윤효식",
+                    "occupation": "여성가족부청소년가족정책실장",
+                    "original_speaker_id": "윤효식"
+                },
+                {
+                    "id": "이건정",
+                    "occupation": "여성가족부여성정책국장",
+                    "original_speaker_id": "이건정"
+                },
+                {
+                    "id": "황윤정",
+                    "occupation": "여성가족부권익증진국장",
+                    "original_speaker_id": "황윤정"
+                },
+                {
+                    "id": "최창행",
+                    "occupation": "여성가족부정책기획관",
+                    "original_speaker_id": "최창행"
+                },
+                {
+                    "id": "심민철",
+                    "occupation": "여성가족부청소년정책관",
+                    "original_speaker_id": "심민철"
+                },
+                {
+                    "id": "박봉정숙",
+                    "occupation": "여성가족부한국여성인권진흥원장",
+                    "original_speaker_id": "박봉정숙"
+                }
+            ]
+        }
+    }
+]

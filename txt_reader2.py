@@ -9,6 +9,8 @@ Original file is located at
 
 # !pip install hanja
 
+import collections
+from glob import glob
 import unicodedata
 import hanja
 import argparse
@@ -18,8 +20,7 @@ import csv
 import json
 import re
 from pprint import pprint
-from glob import glob
-import collections
+
 
 sample = sorted(glob(
     "/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/요약대상회의록-1차/*.txt"))
@@ -47,7 +48,7 @@ fname = "/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/요�
 with open(fname, 'r', encoding='utf-8-sig') as file:
     txt = file.readlines()
     pass
-# pprint(txt)
+pprint(txt)
 
 
 def clean_up(txt):
@@ -306,16 +307,11 @@ def meta_extractor(text, pm_date, pm_topic, pm_author, fname):
     # 회의록 제목
     pm_title = ''
     for i in range(1, 6):
-        if i % 2 == 0:
-            pm_title += text[i]
-            pm_title = hanja.translate(pm_title, 'substitution')
-        elif i % 2 == 1 and i % 5 != 0:
-            pm_title += " " + text[i]
-            pm_title = hanja.translate(pm_title, 'substitution')
-        elif i % 5 == 0:
-            pm_title += " " + text[i].replace(" ", "")
-            pm_title = hanja.translate(pm_title, 'substitution')
+        pm_title += text[i]
+        pm_title = hanja.translate(pm_title, 'substitution')
+    pm_title = pm_title.replace(" ", "")
     meta['회의록제목'] = pm_title
+    # print(pm_title)
 
     # 작성자
     meta['작성'] = pm_author
@@ -493,6 +489,62 @@ def dialog_extractor_or(text_or):
 dialog_or = dialog_extractor_or(text_or)
 # pprint(dialog_or)
 
+# # 산회 이하 문장(형태가 복잡해서 사용 불가)
+# def speaker_extractor2(text, dialog):
+#   s_start = False
+#   break_early = False
+#   s_sentence = []
+#   ss_sentence = []
+
+#   for i in range(len(text)):
+#     if text[i].endswith("산회)"):
+#       s_start = i + 1
+#       break_early = True
+#       break
+#   break_early = False
+#   # pprint(text)
+#   for sid in range(len(text)):
+#     if sid >=s_start:
+#       sub_sentences = hanja.translate(text[sid],"substitution").replace("金","김").replace("李","이").replace("梁","양").replace("羅","나").replace("利","이").replace("勞","노").replace("樂","락").replace("盧","노").replace("樂","락").replace("龍","용").replace("沈","심").replace("宅","택")
+#       s_sentence.append(sub_sentences)
+#   # pprint(s_sentence)
+#   for j in range(len(s_sentence)):
+#     if s_sentence[j].startswith("◯") or s_sentence[j].startswith("○"):
+#       s_start = j + 1
+#       break_early = True
+#       break
+
+#   break_early = False
+#   for ssid in range(len(s_sentence)):
+#     if ssid >= s_start:
+#       while s_sentence[ssid].startswith('◯') or s_sentence[ssid].startswith('○') == True:
+
+#         break_early = True
+#         break
+
+#   break_early = False
+
+# k = speaker_extractor2(text, dialog)
+# print(k)
+
+# # 발언자, 발언(한글수정)
+# def utterance_extractor(dialog,speaker_ex):
+#   utterance_id = []
+#   utterance_form = []
+
+#   for i in range(len(dialog)):
+#     dialog_s = dialog[i].split(' ')
+#     first_s = dialog_s[1:3]
+#     second_s = dialog_s[4:]
+#     spk_id = ' '.join(first_s)
+#     utter = ' '.join(second_s)
+#     utterance_id.append(spk_id)
+#     utterance_form.append(utter)
+
+#   return utterance_id, utterance_form
+# utterance_ex = utterance_extractor(dialog,speaker_ex)
+# pprint(utterance_ex)
+
 # 대화에 참여자 이름, 직위
 
 
@@ -564,6 +616,9 @@ def speaker_extractor_or(dialog_or):
 
         personss.append(person)
         occups.append(occup)
+    # if personss.startswith("金"):
+    #   unicodedata.normalize('NFC','金')
+    #   print(1)
 
     # print(persons[0] +" " + occups[0])
     po = []
@@ -675,7 +730,7 @@ def speaker_list_extractor(speaker_ex, speaker_ex_or):
             # d['birthplace'] = "NA"
             # d['principal_residence'] = "NA"
             # d['current_residence'] = "NA"
-            # d['original_speaker_id'] = o_name
+            d['original_speaker_id'] = o_name
             speaker_list.append(d)
             p_name.append(d['id'])
 
@@ -686,43 +741,44 @@ def speaker_list_extractor(speaker_ex, speaker_ex_or):
 speaker_list = speaker_list_extractor(speaker_ex, speaker_ex_or)
 # pprint(speaker_list)
 
-# speaker(or) info
+# speaker info
+# p_name = []
+# def speaker_list_extractor(speaker_ex):
+
+#     speaker_list = []
+#     speaker =[]
+#     speakers =[]
+#     name = []
+
+#     for i in range(len(speaker_ex)):
+
+#       print(speaker_ex[i][0])
+#       name.append(speaker_ex[i][0])
+#     name = list(collections.OrderedDict.fromkeys(name))
+
+#     for j in range(len(speaker_ex)):
+#       print(speaker_ex[i][1])
+#       position = speaker_ex[i][1]
+#       d = {}
+#       d['id'] = name
+#       d['age'] = "NA"
+#       d['occupation'] = position
+#       d['sex'] = "NA"
+#       d['birthplace'] = "NA"
+#       d['principal_residence'] = "NA"
+#       d['current_residence'] = "NA"
+#       speaker_list.append(d)
+#       p_name.append(d['id'])
 
 
-def speaker_list_extractor_or(speaker_ex, speaker_ex_or):
-    global p2_name
-    p2_name = []
-    p_name1 = []
-    speaker_list = []
-    speaker = []
+#     return speaker_list
+# speaker_list = speaker_list_extractor(speaker_ex)
+# pprint(speaker_list)
+# speakers += name.split('\n')
+# print(speakers)
+# list(collections.OrderedDict.fromkeys(speakers))
 
-    for i in range(len(speaker_ex)):
-        name = speaker_ex[i][0]
-        position = speaker_ex[i][1]
-        o_name = speaker_ex_or[i][0]
-        if position != "소위원장대리":
-            d = {}
-            d['id'] = name
-            # d['age'] = "NA"
-            d['occupation'] = position
-            # d['sex'] = "NA"
-            # d['birthplace'] = "NA"
-            # d['principal_residence'] = "NA"
-            # d['current_residence'] = "NA"
-            d['original_speaker_id'] = o_name
-            speaker_list.append(d)
-            p2_name.append(d['id'])
-
-    # print(p_name)
-    return speaker_list
-
-
-speaker_list__ = speaker_list_extractor_or(speaker_ex, speaker_ex_or)
-# pprint(speaker_list__)
-
-# speaker2 info
-
-
+# 산회 이하 문장(형태가 복잡해서 사용 불가)
 def speaker_extractor2(text, speaker_list, speaker_ex):
     s_start = False
     ss_start = False
@@ -793,7 +849,7 @@ def speaker_extractor2(text, speaker_list, speaker_ex):
             # d['birthplace'] = "NA"
             # d['principal_residence'] = "NA"
             # d['current_residence'] = "NA"
-            # d['original_speaker_id'] = name
+            d['original_speaker_id'] = name
             speaker_list2.append(d)
     for u in range(len(s_sentence)):
         if s_sentence[u] == "" and s_sentence[u+1] == "":
@@ -830,7 +886,7 @@ def speaker_extractor2(text, speaker_list, speaker_ex):
             # d['birthplace'] = "NA"
             # d['principal_residence'] = "NA"
             # d['current_residence'] = "NA"
-            # d['original_speaker_id'] = name
+            d['original_speaker_id'] = name
             speaker_list2.append(d)
 
     # 위원 아닌 출석 의원(X인)2
@@ -861,378 +917,6 @@ def speaker_extractor2(text, speaker_list, speaker_ex):
                 # d['birthplace'] = "NA"
                 # d['principal_residence'] = "NA"
                 # d['current_residence'] = "NA"
-                # d['original_speaker_id'] = name
-                speaker_list2.append(d)
-    # print(speaker_list2)
-
-    # 출석 전문위원
-    for a in range(len(ss_sentence)):
-        if not ss_sentence[a].endswith("인)") and (ss_sentence[a].startswith("◯") or ss_sentence[a].startswith("○")):
-            s_start = a+1
-    for z in range(len(ss_sentence)):
-        if z >= s_start:
-            sss = ss_sentence[z].split("\n")
-            sss_sentence += sss
-    count = int(len(sss_sentence) / 2)
-    id_s = range(count, len(sss_sentence))
-    ocu_s = range(0, count)
-    for n, m in zip(id_s, ocu_s):
-        if sss_sentence[n] not in p_name:
-            d = {}
-            d['id'] = sss_sentence[n]
-            # d['age'] = "NA"
-            d['occupation'] = sss_sentence[m]
-            # d['sex'] = "NA"
-            # d['birthplace'] = "NA"
-            # d['principal_residence'] = "NA"
-            # d['current_residence'] = "NA"
-            # d['original_speaker_id'] = sss_sentence[n]
-            speaker_list2.append(d)
-    # pprint(speaker_list2)
-    # # 위원 의원 아래
-    for p in range(len(s_sentence)):
-        if s_sentence[p].startswith("◯") and s_sentence[p].endswith("참석자"):
-            part = p + 1
-            c = p + 2
-            c_part = s_sentence[part]
-            break
-    for l in range(len(s_sentence)):
-        if l >= part:
-            if s_sentence[l] == "" and s_sentence[l+1] == "":
-                c_end = l
-                break
-            else:
-                c_end = l + 1
-    for m in range(len(s_sentence)):
-        if m >= part and m < c_end:
-            ssss = s_sentence[m].split('\n')
-            c_sentence += ssss
-    # pprint(c_sentence)
-    count = int((len(c_sentence) - 1) / 2) + 1
-    id_c = range(count, len(c_sentence))
-    ocu_c = range(1, count)
-    for n, m in zip(id_c, ocu_c):
-        if c_sentence[n] not in p_name:
-            d = {}
-            d['id'] = c_sentence[n]
-            # d['age'] = "NA"
-            d['occupation'] = c_part + c_sentence[m]
-            # d['sex'] = "NA"
-            # d['birthplace'] = "NA"
-            # d['principal_residence'] = "NA"
-            # d['current_residence'] = "NA"
-            # d['original_speaker_id'] = c_sentence[n]
-            speaker_list2.append(d)
-    # print(s_sentence[c_end-1])
-
-    # 그다음꺼 있으면
-    if c_end != False:
-        for h in range(len(s_sentence)):
-            if h > c_end:
-                if s_sentence[c_end] == "" and s_sentence[c_end+1] == "" and not s_sentence[c_end+2].startswith("◯"):
-                    part2 = c_end + 2
-                    d_part = s_sentence[part2]
-                    break
-        # print(part2)
-        if part2 != False:
-            for r in range(len(s_sentence)):
-                if r >= part2:
-                    if s_sentence[r] == "" and s_sentence[r+1] == "":
-                        d_end = r
-                        break
-                    else:
-                        d_end = r + 1
-            # print(d_end)
-        if part2 != False:
-            for m in range(len(s_sentence)):
-                if m >= part2 and m < d_end:
-                    sssss = s_sentence[m].split('\n')
-                    d_sentence += sssss
-            # pprint(d_sentence)
-            count = int((len(d_sentence) - 1) / 2) + 1
-            id_d = range(count, len(d_sentence))
-            ocu_d = range(1, count)
-            for n, m in zip(id_d, ocu_d):
-                if d_sentence[n] not in p_name:
-                    d = {}
-                    d['id'] = d_sentence[n]
-                    # d['age'] = "NA"
-                    d['occupation'] = d_part + d_sentence[m]
-                    # d['sex'] = "NA"
-                    # d['birthplace'] = "NA"
-                    # d['principal_residence'] = "NA"
-                    # d['current_residence'] = "NA"
-                    # d['original_speaker_id'] = d_sentence[n]
-                    speaker_list2.append(d)
-        # pprint(speaker_list2)
-
-    # 그다음꺼 있으면2
-    if d_end != False:
-        for h in range(len(s_sentence)):
-            if h > d_end:
-                if s_sentence[d_end] == "" and s_sentence[d_end+1] == "" and not s_sentence[d_end+2].startswith("◯"):
-                    part3 = d_end + 2
-                    e_part = s_sentence[part3]
-                    break
-        # print(part2)
-        if part3 != False:
-            for r in range(len(s_sentence)):
-                if r >= part3:
-                    if s_sentence[r] == "" and s_sentence[r+1] == "":
-                        e_end = r
-                        break
-                    else:
-                        e_end = r + 1
-        if part3 != False:
-            for m in range(len(s_sentence)):
-                if m >= part3 and m < e_end:
-                    ssssss = s_sentence[m].split('\n')
-                    e_sentence += ssssss
-            # pprint(d_sentence)
-            count = int((len(e_sentence) - 1) / 2) + 1
-            id_e = range(count, len(e_sentence))
-            ocu_e = range(1, count)
-            for n, m in zip(id_e, ocu_e):
-                if e_sentence[n] not in p_name:
-                    d = {}
-                    d['id'] = e_sentence[n]
-                    # d['age'] = "NA"
-                    d['occupation'] = e_part + e_sentence[m]
-                    # d['sex'] = "NA"
-                    # d['birthplace'] = "NA"
-                    # d['principal_residence'] = "NA"
-                    # d['current_residence'] = "NA"
-                    # d['original_speaker_id'] = e_sentence[n]
-                    speaker_list2.append(d)
-    # # 그다음꺼 있으면3
-    if e_end != False:
-        for h in range(len(s_sentence)):
-            if h > e_end:
-                if s_sentence[e_end] == "" and s_sentence[e_end+1] == "" and not s_sentence[e_end+2].startswith("◯"):
-                    part4 = e_end + 2
-                    f_part = s_sentence[part4]
-                    break
-        # print(part2)
-        if part4 != False:
-            for r in range(len(s_sentence)):
-                if r >= part4:
-                    if s_sentence[r] == "" and s_sentence[r+1] == "":
-                        f_end = r
-                        break
-                    else:
-                        f_end = r + 1
-        if part4 != False:
-            for m in range(len(s_sentence)):
-                if m >= part4 and m < f_end:
-                    sssssss = s_sentence[m].split('\n')
-                    f_sentence += sssssss
-            # pprint(d_sentence)
-            count = int((len(f_sentence) - 1) / 2) + 1
-            id_f = range(count, len(f_sentence))
-            ocu_f = range(1, count)
-            for n, m in zip(id_f, ocu_f):
-                if f_sentence[n] not in p_name:
-                    d = {}
-                    d['id'] = f_sentence[n]
-                    # d['age'] = "NA"
-                    d['occupation'] = f_part + f_sentence[m]
-                    # d['sex'] = "NA"
-                    # d['birthplace'] = "NA"
-                    # d['principal_residence'] = "NA"
-                    # d['current_residence'] = "NA"
-                    # d['original_speaker_id'] = f_sentence[n]
-                    speaker_list2.append(d)
-
-    # 진술인 참고인
-    for f in range(len(s_sentence)):
-        if s_sentence[f].startswith("◯") and (s_sentence[f].endswith("진술인") or s_sentence[f].endswith("참고인")):
-            role = s_sentence[f].split(" ")[1]
-            ss_start = f + 1
-    if ss_start != False:
-        # print(s_start)
-        for j in range(len(s_sentence)):
-            if j >= ss_start:
-                ee = s_sentence[j].split("(")
-                eee = ee[0].split('\n')
-                e_sentence += eee
-        for n in range(len(e_sentence)):
-            if e_sentence[n] not in p_name:
-                d = {}
-                d['id'] = e_sentence[n]
-                # d['age'] = "NA"
-                d['occupation'] = role
-                # d['sex'] = "NA"
-                # d['birthplace'] = "NA"
-                # d['principal_residence'] = "NA"
-                # d['current_residence'] = "NA"
-                # d['original_speaker_id'] = e_sentence[n]
-                speaker_list2.append(d)
-
-    # print(p_name)
-    for last in range(len(speaker_list2)):
-        if speaker_list2[last]['id'] not in p_name:
-            d = {}
-            d['id'] = speaker_list2[last]['id']
-            # d['age'] = "NA"
-            d['occupation'] = speaker_list2[last]['occupation']
-            # d['sex'] = "NA"
-            # d['birthplace'] = "NA"
-            # d['principal_residence'] = "NA"
-            # d['current_residence'] = "NA"
-            # d['original_speaker_id'] = speaker_list2[last]['id']
-            speaker_list2__.append(d)
-            # print(speaker_list2__[last]['id'])
-
-    # print(speaker_list2[0]['id'])
-    return speaker_list2__
-
-
-speaker_list2__ = speaker_extractor2(text, speaker_list, speaker_ex)
-# pprint(speaker_list2__)
-
-# speaker2(or) info
-
-
-def speaker_extractor2_or(text, speaker_list__, speaker_ex):
-    s_start = False
-    ss_start = False
-    break_early = False
-    s_sentence = []
-    ss_sentence = []
-    sss_sentence = []
-    c_sentence = []
-    d_sentence = []
-    speaker_list2 = []
-    speaker_list2__2 = []
-    speaker_list2___ = []
-    e_sentence = []
-    f_sentence = []
-    B_member = []
-    part2 = False
-    part3 = False
-    part4 = False
-    c_end = False
-    d_end = False
-    e_end = False
-    role = ""
-    b = 0
-
-    # 산회) 이하 제~일) 이상 문장 뽑기
-    for i in range(len(text)):
-        if text[i].endswith("산회)") or text[i].endswith('중지)'):
-            s_start = i + 1
-    #     break_early = True
-    #     break
-    # break_early = False
-    for i in range(len(text)):
-        if text[i].startswith("제") and (text[i].endswith('일)') or text[i].endswith('차')):
-            if text[i - 1] == '':
-                s_end = i - 2
-                break_early = True
-                break
-            break_early = False
-            if text[i - 1] != '':
-                s_end = i
-                break_early = True
-                break
-            break_early = False
-
-    for sid in range(len(text)):
-        if sid >= s_start and sid < s_end:
-            sub_sentences = hanja.translate(text[sid], "substitution").replace("金", "김").replace("李", "이").replace("梁", "양").replace("羅", "나").replace(
-                "利", "이").replace("勞", "노").replace("樂", "락").replace("盧", "노").replace("樂", "락").replace("龍", "용").replace("沈", "심").replace("宅", "택")
-            s_sentence.append(sub_sentences)
-
-    # 출석 위원
-    for j in range(len(s_sentence)):
-        if s_sentence[j].startswith("◯") or s_sentence[j].startswith("○"):
-            m = j + 1
-            A_member = s_sentence[m].split("  ")
-            break_early = True
-            break
-    break_early = False
-    # pprint(A_member)
-    # p_name2 = []
-    for t in range(len(A_member)):
-        if A_member[t] not in p2_name:
-            name = A_member[t]
-            d = {}
-            d['id'] = name
-            # d['age'] = "NA"
-            d['occupation'] = "위원"
-            # d['sex'] = "NA"
-            # d['birthplace'] = "NA"
-            # d['principal_residence'] = "NA"
-            # d['current_residence'] = "NA"
-            d['original_speaker_id'] = name
-            speaker_list2.append(d)
-
-    for u in range(len(s_sentence)):
-        if s_sentence[u] == "" and s_sentence[u+1] == "":
-            first_line_end = u
-            break_early = True
-            break
-    break_early = False
-
-    # 위원 아닌 출석 의원(X인)
-    for e in range(len(s_sentence)):
-        if e > m and e < first_line_end:
-            ss_sentence += s_sentence[e].split("\n")
-    for a in range(len(ss_sentence)):
-        # 수정했는데 맞겠지?
-        if (ss_sentence[a].startswith("◯") or ss_sentence[a].startswith("○")) and ss_sentence[a].endswith("인)"):
-            if ss_sentence[a].startswith("◯위원") or ss_sentence[a].startswith("○위원"):
-                b = a + 1
-                B_member = ss_sentence[b].split('  ')
-                occup = "의원"
-                break
-            else:
-                b = a + 1
-                B_member = ss_sentence[b].split('  ')
-                occup = "위원"
-                break
-    for y in range(len(B_member)):
-        if B_member[y] not in p2_name:
-            name = B_member[y]
-            d = {}
-            d['id'] = name
-            # d['age'] = "NA"
-            d['occupation'] = occup
-            # d['sex'] = "NA"
-            # d['birthplace'] = "NA"
-            # d['principal_residence'] = "NA"
-            # d['current_residence'] = "NA"
-            d['original_speaker_id'] = name
-            speaker_list2.append(d)
-
-    # 위원 아닌 출석 의원(X인)2
-    if ss_sentence[b+1].endswith("인)") == True:
-        for e in range(len(s_sentence)):
-            if e > m and e < first_line_end:
-                ss_sentence += s_sentence[e].split("\n")
-        for a in range(len(ss_sentence)):
-            # 수정했는데 맞겠지?
-            if (ss_sentence[a].startswith("◯") or ss_sentence[a].startswith("○")) and ss_sentence[a].endswith("인)"):
-                if ss_sentence[a].startswith("◯위원") or ss_sentence[a].startswith("○위원"):
-                    b = a + 1
-                    B_member = ss_sentence[b].split('  ')
-                    occup = "의원"
-                else:
-                    b = a + 1
-                    B_member = ss_sentence[b].split('  ')
-                    occup = "위원"
-
-        for y in range(len(B_member)):
-            if B_member[y] not in p2_name:
-                name = B_member[y]
-                d = {}
-                d['id'] = name
-                # d['age'] = "NA"
-                d['occupation'] = occup
-                # d['sex'] = "NA"
-                # d['birthplace'] = "NA"
-                # d['principal_residence'] = "NA"
-                # d['current_residence'] = "NA"
                 d['original_speaker_id'] = name
                 speaker_list2.append(d)
     # print(speaker_list2)
@@ -1249,7 +933,7 @@ def speaker_extractor2_or(text, speaker_list__, speaker_ex):
     id_s = range(count, len(sss_sentence))
     ocu_s = range(0, count)
     for n, m in zip(id_s, ocu_s):
-        if sss_sentence[n] not in p2_name:
+        if sss_sentence[n] not in p_name:
             d = {}
             d['id'] = sss_sentence[n]
             # d['age'] = "NA"
@@ -1284,7 +968,7 @@ def speaker_extractor2_or(text, speaker_list__, speaker_ex):
     id_c = range(count, len(c_sentence))
     ocu_c = range(1, count)
     for n, m in zip(id_c, ocu_c):
-        if c_sentence[n] not in p2_name:
+        if c_sentence[n] not in p_name:
             d = {}
             d['id'] = c_sentence[n]
             # d['age'] = "NA"
@@ -1325,7 +1009,7 @@ def speaker_extractor2_or(text, speaker_list__, speaker_ex):
             id_d = range(count, len(d_sentence))
             ocu_d = range(1, count)
             for n, m in zip(id_d, ocu_d):
-                if d_sentence[n] not in p2_name:
+                if d_sentence[n] not in p_name:
                     d = {}
                     d['id'] = d_sentence[n]
                     # d['age'] = "NA"
@@ -1365,7 +1049,7 @@ def speaker_extractor2_or(text, speaker_list__, speaker_ex):
             id_e = range(count, len(e_sentence))
             ocu_e = range(1, count)
             for n, m in zip(id_e, ocu_e):
-                if e_sentence[n] not in p2_name:
+                if e_sentence[n] not in p_name:
                     d = {}
                     d['id'] = e_sentence[n]
                     # d['age'] = "NA"
@@ -1403,7 +1087,7 @@ def speaker_extractor2_or(text, speaker_list__, speaker_ex):
             id_f = range(count, len(f_sentence))
             ocu_f = range(1, count)
             for n, m in zip(id_f, ocu_f):
-                if f_sentence[n] not in p2_name:
+                if f_sentence[n] not in p_name:
                     d = {}
                     d['id'] = f_sentence[n]
                     # d['age'] = "NA"
@@ -1428,7 +1112,7 @@ def speaker_extractor2_or(text, speaker_list__, speaker_ex):
                 eee = ee[0].split('\n')
                 e_sentence += eee
         for n in range(len(e_sentence)):
-            if e_sentence[n] not in p2_name:
+            if e_sentence[n] not in p_name:
                 d = {}
                 d['id'] = e_sentence[n]
                 # d['age'] = "NA"
@@ -1442,7 +1126,7 @@ def speaker_extractor2_or(text, speaker_list__, speaker_ex):
 
     # print(p_name)
     for last in range(len(speaker_list2)):
-        if speaker_list2[last]['id'] not in p2_name:
+        if speaker_list2[last]['id'] not in p_name:
             d = {}
             d['id'] = speaker_list2[last]['id']
             # d['age'] = "NA"
@@ -1452,15 +1136,15 @@ def speaker_extractor2_or(text, speaker_list__, speaker_ex):
             # d['principal_residence'] = "NA"
             # d['current_residence'] = "NA"
             d['original_speaker_id'] = speaker_list2[last]['id']
-            speaker_list2__2.append(d)
+            speaker_list2__.append(d)
             # print(speaker_list2__[last]['id'])
 
     # print(speaker_list2[0]['id'])
-    return speaker_list2__2
+    return speaker_list2__
 
 
-speaker_list2__2 = speaker_extractor2_or(text, speaker_list__, speaker_ex)
-# pprint(speaker_list2__2)
+speaker_list2__ = speaker_extractor2(text, speaker_list, speaker_ex)
+pprint(speaker_list2__)
 
 # json 형태로 변환하기 위한 틀
 
@@ -1540,7 +1224,7 @@ def convert_to_korea(meta, speaker_list, speaker_list2__, dialog_json, id):
 
 korea_formatted_data = convert_to_korea(
     meta, speaker_list, speaker_list2__, dialog_json, id)
-# pprint(korea_formatted_data)
+pprint(korea_formatted_data)
 # pprint(korea_formatted_data['document']['utterance'][0])
 
 # argparse 이용 터미널로 불러오기
@@ -1574,9 +1258,10 @@ def txt_reader(input, output, id):
             utterance_ex_or = utterance_extractor_or(dialog_or)
             dialog_json = dialog_formatting(utterance_ex, utterance_ex_or)
             speaker_list = speaker_list_extractor(speaker_ex, speaker_ex_or)
-            speaker_list2 = speaker_extractor2(text, speaker_list, speaker_ex)
+            speaker_list2__ = speaker_extractor2(
+                text, speaker_list, speaker_ex)
             korea_formatted_data = convert_to_korea(
-                meta, speaker_list, speaker_list2, dialog_json, id)
+                meta, speaker_list, speaker_list2__, dialog_json, id)
             id = "SBRW 2100000001"
             id_code = id.split(" ")
             id0 = id_code[0]
@@ -1585,7 +1270,7 @@ def txt_reader(input, output, id):
             korea_formatted_data['id'] = id_code
             korea_formatted_data['metadata']['title'] = "국립국어원 국회 회의록 원시 말뭉치 " + id_code
             korea_formatted_data['document']['id'] = id_code + ".1"
-            # print(korea_formatted_data)
+
             n = 0
             for i in dialog_json:
                 korea_formatted_data['document']['utterance'][n]['id'] = id_code + \
@@ -1598,11 +1283,9 @@ def txt_reader(input, output, id):
             json.dump(korea_formatted_data, f, ensure_ascii=False, indent=4)
 
         # /content/drive/My Drive/Colab Notebooks/task/Minutes(Korean)/(jw)pm_summary_preprocessor/
+
 # txt_reader(id)
 # txt_reader(fname)
-
-# csv파일(mapping talbe) 생성
-# 첫번째 줄만 이상함
 
 
 def csv_extractor(id):
@@ -1631,64 +1314,6 @@ def csv_extractor(id):
 
 
 csv_extractor(id)
-
-
-def convert_korea_speaker(speaker_list__, speaker_list2__2):
-    d = {}
-    speaker = speaker_list__ + speaker_list2__2
-    d['speaker'] = speaker
-    # d = speaker
-    # pprint(speaker_list2__2)
-    return d
-
-
-korea_speaker = convert_korea_speaker(speaker_list__, speaker_list2__2)
-# pprint(korea_speaker)
-
-
-def speaker_id_json(id):
-
-    dd = []
-    k = 0
-    files = sorted(glob(
-        "/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/요약대상회의록-1차/*.txt"))
-    for fname in files:
-        with open(fname, 'r', encoding='utf-8-sig') as file:
-            txt = file.readlines()
-            pass
-            text = clean_up(txt)
-            text_or = clean_up_or(txt)
-            pm_date = date_extractor(text)
-            pm_author = author(text)
-            pm_topic = topic_extractor(text)
-            meta = meta_extractor(text, pm_date, pm_topic, pm_author, fname)
-            dialog = dialog_extractor(text)
-            dialog_or = dialog_extractor_or(text_or)
-            speaker_ex = speaker_extractor(dialog)
-            speaker_ex_or = speaker_extractor_or(dialog_or)
-            utterance_ex = utterance_extractor(dialog)
-            utterance_ex_or = utterance_extractor_or(dialog_or)
-            dialog_json = dialog_formatting(utterance_ex, utterance_ex_or)
-            speaker_list__ = speaker_list_extractor_or(
-                speaker_ex, speaker_ex_or)
-            speaker_list2__2 = speaker_extractor2_or(
-                text, speaker_list, speaker_ex)
-            korea_speaker = convert_korea_speaker(
-                speaker_list__, speaker_list2__2)
-            d = {}
-            id = "SBRW 2100000001"
-            id_code = id.split(" ")
-            id0 = id_code[0]
-            id1 = int(id_code[1]) + k
-            id_code = id0 + str(id1)
-            k += 1
-            d[id_code] = korea_speaker
-            dd.append(d)
-    with open("/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/speakerlist.json", 'w') as f:
-        json.dump(dd, f, ensure_ascii=False, indent=4)
-
-
-speaker_id_json(id)
 
 
 if __name__ == '__main__':
