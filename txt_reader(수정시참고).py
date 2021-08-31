@@ -23,7 +23,7 @@ from pprint import pprint
 
 
 sample = sorted(glob(
-    "/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/요약대상회의록-1차/*.txt"))
+    "/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/요약대상회의록-2차/*.txt"))
 # pprint(sample)
 
 # 파일 불러오기
