@@ -25,7 +25,7 @@ from glob import glob
 import collections
 
 sample = sorted(glob("/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/요약대상회의록-2차/*.txt"))
-# pprint(sample)
+
 
 # 파일 불러오기
 
@@ -1548,54 +1548,54 @@ def txt_reader(input, output, id):
 # txt_reader(id)
 # txt_reader(fname)
 
-def mapping_table(map,utterance_ex):      
-  k = 0  
-  files = sorted(glob("/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/요약대상회의록-2차/*.txt"))  
-  for fname in files:
-    with open(fname, 'r', encoding='utf-8-sig') as file:
-      txt = file.readlines()
-      pass              
-      map = mapping(txt)
-      dialog = dialog_extractor(txt)
-      utterance_ex = utterance_extractor(dialog)
-      id = "SBRW 2100000001"
-      id_code = id.split(" ")
-      id0 = id_code[0]
-      id1 = int(id_code[1]) + k
-      id_code = id0 + str(id1)
-      o_id = []    
-      n_id = []  
-      o_id = map[0]
-      n_id = map[1]
-      o_utter = map[2]
-      n_utter = map[3]      
-      mapp = []
-      mappp = []
-      speaker = utterance_ex[1]
-      utterance = utterance_ex[2]        
+# def mapping_table(map,utterance_ex):      
+#   k = 0  
+#   files = sorted(glob("/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/요약대상회의록-2차/*.txt"))  
+#   for fname in files:
+#     with open(fname, 'r', encoding='utf-8-sig') as file:
+#       txt = file.readlines()
+#       pass              
+#       map = mapping(txt)
+#       dialog = dialog_extractor(txt)
+#       utterance_ex = utterance_extractor(dialog)
+#       id = "SBRW 2100000001"
+#       id_code = id.split(" ")
+#       id0 = id_code[0]
+#       id1 = int(id_code[1]) + k
+#       id_code = id0 + str(id1)
+#       o_id = []    
+#       n_id = []  
+#       o_id = map[0]
+#       n_id = map[1]
+#       o_utter = map[2]
+#       n_utter = map[3]      
+#       mapp = []
+#       mappp = []
+#       speaker = utterance_ex[1]
+#       utterance = utterance_ex[2]        
 
-      # if n_utter in o_utter:
-      #   pass
-      # else:
-      #   print(k)
-      #   print('error')
+#       # if n_utter in o_utter:
+#       #   pass
+#       # else:
+#       #   print(k)
+#       #   print('error')
       
-      for m in range(len(n_id)):
-        o_id = [map[0][m]]
-        n_id = [map[1][m]]
-        speaker = [utterance_ex[1][m]]
-        utterance = [utterance_ex[2][m]]
-        mapp = n_id + o_id + speaker + utterance
-        mappp.append(mapp)            
+#       for m in range(len(n_id)):
+#         o_id = [map[0][m]]
+#         n_id = [map[1][m]]
+#         speaker = [utterance_ex[1][m]]
+#         utterance = [utterance_ex[2][m]]
+#         mapp = n_id + o_id + speaker + utterance
+#         mappp.append(mapp)            
   
-    with open("/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/mapping_table(id)/mapping_table_id_2차/"+ id_code+".csv", 'wt', encoding='utf-8-sig', newline='') as out_file:      
-      csv_writer = csv.writer(out_file, delimiter=',') 
-      csv_writer.writerow(["new_id","ori_id","speaker","utterance"])
-      csv_writer.writerows(mappp)
-      k +=1
+#     with open("/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/mapping_table(id)/mapping_table_id_2차/"+ id_code+".csv", 'wt', encoding='utf-8-sig', newline='') as out_file:      
+#       csv_writer = csv.writer(out_file, delimiter=',') 
+#       csv_writer.writerow(["new_id","ori_id","speaker","utterance"])
+#       csv_writer.writerows(mappp)
+#       k +=1
 
       
-mapping_table(map,utterance_ex)
+# mapping_table(map,utterance_ex)
 #   return mapp
 # mapping_table = mapping_table(utterance_ex,mapping)
 # pprint(mapping_table)
