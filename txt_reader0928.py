@@ -1543,7 +1543,7 @@ def txt_reader(input, output, id):
     with open(output+id_code+'.json', 'w') as f:
             json.dump(korea_formatted_data, f, ensure_ascii=False, indent=4)
     
-    # /content/drive/My Drive/Colab Notebooks/task/Minutes(Korean)/(jw)pm_summary_preprocessor/
+    /content/drive/My Drive/Colab Notebooks/task/Minutes(Korean)/(jw)pm_summary_preprocessor/
 
 # txt_reader(id)
 # txt_reader(fname)
@@ -1573,6 +1573,7 @@ def txt_reader(input, output, id):
 #       mappp = []
 #       speaker = utterance_ex[1]
 #       utterance = utterance_ex[2]        
+#       note = utterance_ex[3]
 
 #       # if n_utter in o_utter:
 #       #   pass
@@ -1585,18 +1586,19 @@ def txt_reader(input, output, id):
 #         n_id = [map[1][m]]
 #         speaker = [utterance_ex[1][m]]
 #         utterance = [utterance_ex[2][m]]
-#         mapp = n_id + o_id + speaker + utterance
+#         note = [utterance_ex[3][m]]
+#         mapp = n_id + o_id + speaker + utterance + note
 #         mappp.append(mapp)            
   
 #     with open("/Users/jaewanpark/Documents/회의록/pm_summary_preprocessor(pjw)/mapping_table(id)/mapping_table_id_2차/"+ id_code+".csv", 'wt', encoding='utf-8-sig', newline='') as out_file:      
 #       csv_writer = csv.writer(out_file, delimiter=',') 
-#       csv_writer.writerow(["new_id","ori_id","speaker","utterance"])
+#       csv_writer.writerow(["new_id","ori_id","speaker","utterance","note"])
 #       csv_writer.writerows(mappp)
 #       k +=1
 
       
 # mapping_table(map,utterance_ex)
-#   return mapp
+#   return mappp
 # mapping_table = mapping_table(utterance_ex,mapping)
 # pprint(mapping_table)
 
@@ -1626,7 +1628,6 @@ def txt_reader(input, output, id):
 
 
 # csv_extractor(id)
-
 
 if __name__ == '__main__':
     txt_reader(args.input, args.output, id)
